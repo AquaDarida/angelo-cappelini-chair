@@ -12,7 +12,7 @@ PreserveCurveDirection = 0
 NumberOfBitmapFiles = 0
 CADFileUnit = 0
 NumberOfParts = 4
-ActivePartIndex = 1
+ActivePartIndex = 3
 SavedToolpaths = 0
 UseTranslationForOperationSegment = 1
 UseTranslationForPartSegment = 1
@@ -60,7 +60,7 @@ SegmentMethod = 0
 SegmentMinimumX = -6.509409
 SegmentMinimumY = -37.096390
 SegmentMinimumZ = -39.352253
-SegmentMaximumX = 652.735168
+SegmentMaximumX = 652.735229
 SegmentMaximumY = 37.096298
 SegmentMaximumZ = 39.352249
 SegmentMinimumAngle = 0.000000
@@ -81,7 +81,7 @@ CheckSimulationForRest = 0
 UseSimulationDefaultToleranceForRest = 1
 SimulationToleranceForRest = 0.659245
 WindowLayout = 0
-NumberOfOperations = 1
+NumberOfOperations = 2
 SupportBlockType = 2
 NumberOfSupports = 2
 
@@ -126,9 +126,67 @@ Matrix[3][2] = 4.733920
 Matrix[3][3] = 1.000000
 
 [Part0 Operation0]
+Name = Roughing
+Cutter = Flat tip, radius 5 = diameter 10 mm
+Visible = 0
+OperationType = 1
+Feedrate = 1000.000000
+Spindlespeed = 2000
+UseRoughingLayers = 1
+RoughingLayerMethod = 0
+RoughingLayer = 30.000000
+UseRoughingRamping = 0
+RoughingRampingAngle = 5.000000
+AlwaysStayLow = 0
+ToolpathDistance = 3.333333
+ToolpathStepsize = 3.333333
+ToolpathSubSamplingFactor = 1
+SegmentMethod = 1
+SegmentMinimumX = 315.379021
+SegmentMinimumY = 33.274987
+SegmentMinimumZ = 34.505045
+SegmentMaximumX = 320.138337
+SegmentMaximumY = 37.096298
+SegmentMaximumZ = 39.352249
+SegmentMinimumAngle = 0.000000
+SegmentMaximumAngle = 360.000000
+BordersizeMethod = 1
+BordersizeStartX = 5.000000
+BordersizeStartY = 5.000000
+BordersizeEndX = 5.000000
+BordersizeEndY = 5.000000
+Strategy = 0
+StrategyParallelAngle = 0.000000
+CrosswiseFirstXthenY = 1
+StrategyCircularSpiral = 0
+StrategyMachineCorners = 0
+StrategyCentreMethod = 1
+StrategyCentreX = 317.758679
+StrategyCentreY = 35.185643
+SmoothToolpathTransitions = 0
+FillGaps = 0
+WaterlineDistance = 1.000000
+FillHorizontalWaterlinePlanes = 0
+IgnoreEnclosedContours = 0
+ContourOffset = 0.000000
+RoughingSkin = 0.000000
+RoughingVerticalPlaneCheck = 0
+Direction = 0
+PlungeRate = 100
+StartRate = 50
+Sorting = 1
+FreeMovementHeight = 30.000000
+SkipAmbient = 0
+SkipAmbientIgnoreEnclosed = 1
+ColletDiameter = 0
+CheckForVerticalPlanes = 0
+VerticalPlaneRatio = 20
+TiltAngle = 0.000000
+
+[Part0 Operation1]
 Name = Finishing
-Cutter = Ball nose, radius 1.5 = diameter 3 mm
-Visible = 1
+Cutter = Flat tip, radius 5 = diameter 10 mm
+Visible = 0
 OperationType = 1
 Feedrate = 1200.000000
 Spindlespeed = 10000
@@ -136,20 +194,20 @@ PreStep Flags = 8
 PreStep Angle = 0.000000
 ChainPart = Side #2
 ChainOperation = Finishing
-UseRoughingLayers = 1
+UseRoughingLayers = 0
 RoughingLayerMethod = 0
-RoughingLayer = 10.000000
+RoughingLayer = 30.000000
 UseRoughingRamping = 0
 RoughingRampingAngle = 5.000000
 AlwaysStayLow = 0
-ToolpathDistance = 0.176471
-ToolpathStepsize = 0.176471
+ToolpathDistance = 3.333333
+ToolpathStepsize = 3.333333
 ToolpathSubSamplingFactor = 1
 SegmentMethod = 2
-SegmentMinimumX = 9.339099
+SegmentMinimumX = 9.340000
 SegmentMinimumY = -37.096390
 SegmentMinimumZ = 10.708461
-SegmentMaximumX = 644.792761
+SegmentMaximumX = 644.789978
 SegmentMaximumY = 37.096298
 SegmentMaximumZ = 39.352249
 SegmentMinimumAngle = 0.000000
@@ -164,12 +222,12 @@ BordersizeStartY = 0.000000
 BordersizeEndX = 0.000000
 BordersizeEndY = 0.000000
 Strategy = 0
-StrategyParallelAngle = 45.000000
+StrategyParallelAngle = 0.000000
 CrosswiseFirstXthenY = 1
 StrategyCircularSpiral = 0
 StrategyMachineCorners = 1
 StrategyCentreMethod = 1
-StrategyCentreX = 327.065930
+StrategyCentreX = 327.064989
 StrategyCentreY = 0.000000
 SmoothToolpathTransitions = 0
 FillGaps = 0
@@ -211,14 +269,19 @@ ShowSegmentTranslucent = 0
 ShowSubsegments = 1
 ShowSubsegmentTranslucent = 0
 ShowWorkingArea = 0
-RotationX = -75.000134
-RotationY = -3.384183
-RotationZ = -0.348451
-PanningX = -658.932487
-PanningY = -170.900454
-Zooming = 459.497299
+RotationX = 93.261330
+RotationY = -4.737814
+RotationZ = 188.376787
+PanningX = -177.348092
+PanningY = -34.883230
+Zooming = 417.724817
 
 [Part0 View0 Operation0]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part0 View0 Operation1]
 ShowSubsegments = 1
 ShowSubsegmentTranslucent = 0
 ShowPoints = 0
@@ -255,6 +318,11 @@ ShowSubsegments = 1
 ShowSubsegmentTranslucent = 0
 ShowPoints = 0
 
+[Part0 View1 Operation1]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
 [Part0 View2]
 Name = 
 ShowName = 1
@@ -283,6 +351,11 @@ PanningY = 0.000000
 Zooming = 100.000000
 
 [Part0 View2 Operation0]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part0 View2 Operation1]
 ShowSubsegments = 1
 ShowSubsegmentTranslucent = 0
 ShowPoints = 0
@@ -319,6 +392,11 @@ ShowSubsegments = 1
 ShowSubsegmentTranslucent = 0
 ShowPoints = 0
 
+[Part0 View3 Operation1]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
 [Part1]
 Name = Side #2
 UseRotationAxis = 0
@@ -338,7 +416,7 @@ SegmentMethod = 0
 SegmentMinimumX = -6.509409
 SegmentMinimumY = -39.352249
 SegmentMinimumZ = -37.096390
-SegmentMaximumX = 652.735168
+SegmentMaximumX = 652.735229
 SegmentMaximumY = 39.352253
 SegmentMaximumZ = 37.096298
 SegmentMinimumAngle = 0.000000
@@ -359,13 +437,13 @@ CheckSimulationForRest = 0
 UseSimulationDefaultToleranceForRest = 1
 SimulationToleranceForRest = 0.659245
 WindowLayout = 0
-NumberOfOperations = 2
+NumberOfOperations = 5
 SupportBlockType = 3
 
 [Part1 Operation0]
 Name = Roughing
 Cutter = Flat tip, radius 5 = diameter 10 mm
-Visible = 1
+Visible = 0
 OperationType = 1
 Feedrate = 1200.000000
 Spindlespeed = 10000
@@ -402,7 +480,7 @@ CrosswiseFirstXthenY = 1
 StrategyCircularSpiral = 0
 StrategyMachineCorners = 0
 StrategyCentreMethod = 1
-StrategyCentreX = 323.515662
+StrategyCentreX = 323.515661
 StrategyCentreY = 0.000000
 SmoothToolpathTransitions = 0
 FillGaps = 0
@@ -426,7 +504,7 @@ TiltAngle = 0.000000
 
 [Part1 Operation1]
 Name = Finishing
-Cutter = Ball nose, radius 1.5 = diameter 3 mm
+Cutter = Ball nose, radius 5 = diameter 10 mm
 Visible = 0
 OperationType = 1
 Feedrate = 1200.000000
@@ -437,18 +515,18 @@ ChainPart = Side #3
 ChainOperation = Finishing
 UseRoughingLayers = 0
 RoughingLayerMethod = 0
-RoughingLayer = 10.000000
+RoughingLayer = 30.000000
 UseRoughingRamping = 0
 RoughingRampingAngle = 5.000000
 AlwaysStayLow = 0
-ToolpathDistance = 0.176471
-ToolpathStepsize = 0.176471
+ToolpathDistance = 3.333333
+ToolpathStepsize = 3.333333
 ToolpathSubSamplingFactor = 1
 SegmentMethod = 2
-SegmentMinimumX = 0.207208
+SegmentMinimumX = 0.210000
 SegmentMinimumY = -39.352249
 SegmentMinimumZ = -0.000046
-SegmentMaximumX = 644.792761
+SegmentMaximumX = 644.789978
 SegmentMaximumY = 39.352253
 SegmentMaximumZ = 37.096298
 SegmentMinimumAngle = 0.000000
@@ -463,13 +541,199 @@ BordersizeStartY = 0.000000
 BordersizeEndX = 0.000000
 BordersizeEndY = 0.000000
 Strategy = 0
+StrategyParallelAngle = 0.000000
+CrosswiseFirstXthenY = 1
+StrategyCircularSpiral = 0
+StrategyMachineCorners = 1
+StrategyCentreMethod = 1
+StrategyCentreX = 322.499989
+StrategyCentreY = 0.000000
+SmoothToolpathTransitions = 0
+FillGaps = 0
+WaterlineDistance = 1.000000
+FillHorizontalWaterlinePlanes = 0
+IgnoreEnclosedContours = 0
+ContourOffset = 0.000000
+RoughingSkin = 0.000000
+RoughingVerticalPlaneCheck = 0
+Direction = 0
+PlungeRate = 100
+StartRate = 50
+Sorting = 1
+FreeMovementHeight = 30.000000
+SkipAmbient = 0
+SkipAmbientIgnoreEnclosed = 1
+ColletDiameter = 0
+CheckForVerticalPlanes = 0
+VerticalPlaneRatio = 20
+TiltAngle = 0.000000
+
+[Part1 Operation2]
+Name = Finishing 2
+Cutter = Ball nose, radius 1.5 = diameter 3 mm
+Visible = 1
+OperationType = 1
+Feedrate = 1000.000000
+Spindlespeed = 2000
+UseRoughingLayers = 0
+RoughingLayerMethod = 0
+RoughingLayer = 10.000000
+UseRoughingRamping = 0
+RoughingRampingAngle = 5.000000
+AlwaysStayLow = 0
+ToolpathDistance = 0.333333
+ToolpathStepsize = 0.333333
+ToolpathSubSamplingFactor = 1
+SegmentMethod = 2
+SegmentMinimumX = 568.504504
+SegmentMinimumY = -21.608400
+SegmentMinimumZ = -8.921045
+SegmentMaximumX = 610.393393
+SegmentMaximumY = 6.866631
+SegmentMaximumZ = 37.096298
+SegmentMinimumAngle = 0.000000
+SegmentMaximumAngle = 360.000000
+SegmentNumPolygons = 1
+SegmentPolygon_1_NumPoints = 5
+SegmentPolygon_1_NumChunks = 1
+SegmentPolygon_1_1 = 605.92;6.87|568.50;5.22|568.50;-21.37|610.39;-21.61|610.16;6.87|
+BordersizeMethod = 3
+BordersizeStartX = 0.000000
+BordersizeStartY = 0.000000
+BordersizeEndX = 0.000000
+BordersizeEndY = 0.000000
+Strategy = 0
 StrategyParallelAngle = 45.000000
 CrosswiseFirstXthenY = 1
 StrategyCircularSpiral = 0
 StrategyMachineCorners = 1
 StrategyCentreMethod = 1
-StrategyCentreX = 322.499985
-StrategyCentreY = 0.000000
+StrategyCentreX = 589.448949
+StrategyCentreY = -7.370884
+SmoothToolpathTransitions = 0
+FillGaps = 0
+WaterlineDistance = 1.000000
+FillHorizontalWaterlinePlanes = 0
+IgnoreEnclosedContours = 0
+ContourOffset = 0.000000
+RoughingSkin = 0.000000
+RoughingVerticalPlaneCheck = 0
+Direction = 0
+PlungeRate = 100
+StartRate = 50
+Sorting = 1
+FreeMovementHeight = 30.000000
+SkipAmbient = 0
+SkipAmbientIgnoreEnclosed = 1
+ColletDiameter = 0
+CheckForVerticalPlanes = 0
+VerticalPlaneRatio = 20
+TiltAngle = 0.000000
+
+[Part1 Operation3]
+Name = Finishing 3
+Cutter = Ball nose, radius 1.5 = diameter 3 mm
+Visible = 1
+OperationType = 1
+Feedrate = 1000.000000
+Spindlespeed = 2000
+UseRoughingLayers = 0
+RoughingLayerMethod = 0
+RoughingLayer = 10.000000
+UseRoughingRamping = 0
+RoughingRampingAngle = 5.000000
+AlwaysStayLow = 0
+ToolpathDistance = 0.176471
+ToolpathStepsize = 0.176471
+ToolpathSubSamplingFactor = 1
+SegmentMethod = 2
+SegmentMinimumX = 175.548269
+SegmentMinimumY = -34.703934
+SegmentMinimumZ = -6.542100
+SegmentMaximumX = 204.523392
+SegmentMaximumY = 7.945236
+SegmentMaximumZ = 37.096298
+SegmentMinimumAngle = 0.000000
+SegmentMaximumAngle = 360.000000
+SegmentNumPolygons = 1
+SegmentPolygon_1_NumPoints = 4
+SegmentPolygon_1_NumChunks = 1
+SegmentPolygon_1_1 = 201.54;7.30|175.55;7.95|176.92;-34.70|204.52;-32.46|
+BordersizeMethod = 3
+BordersizeStartX = 0.000000
+BordersizeStartY = 0.000000
+BordersizeEndX = 0.000000
+BordersizeEndY = 0.000000
+Strategy = 0
+StrategyParallelAngle = 45.000000
+CrosswiseFirstXthenY = 1
+StrategyCircularSpiral = 0
+StrategyMachineCorners = 1
+StrategyCentreMethod = 1
+StrategyCentreX = 190.035831
+StrategyCentreY = -13.379349
+SmoothToolpathTransitions = 0
+FillGaps = 0
+WaterlineDistance = 1.000000
+FillHorizontalWaterlinePlanes = 0
+IgnoreEnclosedContours = 0
+ContourOffset = 0.000000
+RoughingSkin = 0.000000
+RoughingVerticalPlaneCheck = 0
+Direction = 0
+PlungeRate = 100
+StartRate = 50
+Sorting = 1
+FreeMovementHeight = 30.000000
+SkipAmbient = 0
+SkipAmbientIgnoreEnclosed = 1
+ColletDiameter = 0
+CheckForVerticalPlanes = 0
+VerticalPlaneRatio = 20
+TiltAngle = 0.000000
+
+[Part1 Operation4]
+Name = Finishing 4
+Cutter = Ball nose, radius 1.5 = diameter 3 mm
+Visible = 1
+OperationType = 1
+Feedrate = 1000.000000
+Spindlespeed = 2000
+UseRoughingLayers = 0
+RoughingLayerMethod = 0
+RoughingLayer = 10.000000
+UseRoughingRamping = 0
+RoughingRampingAngle = 5.000000
+AlwaysStayLow = 0
+ToolpathDistance = 0.333333
+ToolpathStepsize = 0.333333
+ToolpathSubSamplingFactor = 1
+SegmentMethod = 2
+SegmentMinimumX = 88.343881
+SegmentMinimumY = -34.093746
+SegmentMinimumZ = -8.921045
+SegmentMaximumX = 132.308190
+SegmentMaximumY = 16.692611
+SegmentMaximumZ = 37.096298
+SegmentMinimumAngle = 0.000000
+SegmentMaximumAngle = 360.000000
+SegmentNumPolygons = 1
+SegmentPolygon_1_NumPoints = 4
+SegmentPolygon_1_NumChunks = 1
+SegmentPolygon_1_1 = 128.14;-34.09|88.34;-32.58|94.79;16.69|132.31;9.87|
+BordersizeMethod = 3
+BordersizeStartX = 0.000000
+BordersizeStartY = 0.000000
+BordersizeEndX = 0.000000
+BordersizeEndY = 0.000000
+Strategy = 0
+StrategyParallelAngle = 45.000000
+CrosswiseFirstXthenY = 1
+StrategyCircularSpiral = 0
+StrategyMachineCorners = 1
+StrategyCentreMethod = 1
+StrategyCentreX = 110.326035
+StrategyCentreY = -8.700567
 SmoothToolpathTransitions = 0
 FillGaps = 0
 WaterlineDistance = 1.000000
@@ -510,12 +774,12 @@ ShowSegmentTranslucent = 0
 ShowSubsegments = 1
 ShowSubsegmentTranslucent = 0
 ShowWorkingArea = 0
-RotationX = 0.000017
-RotationY = -0.209417
-RotationZ = 0.136537
-PanningX = 0.000000
-PanningY = 0.000000
-Zooming = 100.000000
+RotationX = -90.733605
+RotationY = -6.083330
+RotationZ = -15.263670
+PanningX = 991.632771
+PanningY = -536.821476
+Zooming = 740.024994
 
 [Part1 View0 Operation0]
 ShowSubsegments = 1
@@ -523,6 +787,21 @@ ShowSubsegmentTranslucent = 0
 ShowPoints = 0
 
 [Part1 View0 Operation1]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part1 View0 Operation2]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part1 View0 Operation3]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part1 View0 Operation4]
 ShowSubsegments = 1
 ShowSubsegmentTranslucent = 0
 ShowPoints = 0
@@ -564,6 +843,21 @@ ShowSubsegments = 1
 ShowSubsegmentTranslucent = 0
 ShowPoints = 0
 
+[Part1 View1 Operation2]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part1 View1 Operation3]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part1 View1 Operation4]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
 [Part1 View2]
 Name = 
 ShowName = 1
@@ -597,6 +891,21 @@ ShowSubsegmentTranslucent = 0
 ShowPoints = 0
 
 [Part1 View2 Operation1]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part1 View2 Operation2]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part1 View2 Operation3]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part1 View2 Operation4]
 ShowSubsegments = 1
 ShowSubsegmentTranslucent = 0
 ShowPoints = 0
@@ -638,6 +947,21 @@ ShowSubsegments = 1
 ShowSubsegmentTranslucent = 0
 ShowPoints = 0
 
+[Part1 View3 Operation2]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part1 View3 Operation3]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part1 View3 Operation4]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
 [Part2]
 Name = Side #3
 UseRotationAxis = 0
@@ -657,7 +981,7 @@ SegmentMethod = 0
 SegmentMinimumX = -6.509409
 SegmentMinimumY = -37.096298
 SegmentMinimumZ = -39.352249
-SegmentMaximumX = 652.735168
+SegmentMaximumX = 652.735229
 SegmentMaximumY = 37.096390
 SegmentMaximumZ = 39.352253
 SegmentMinimumAngle = 0.000000
@@ -678,10 +1002,68 @@ CheckSimulationForRest = 0
 UseSimulationDefaultToleranceForRest = 1
 SimulationToleranceForRest = 0.659245
 WindowLayout = 0
-NumberOfOperations = 1
+NumberOfOperations = 2
 SupportBlockType = 3
 
 [Part2 Operation0]
+Name = Roughing
+Cutter = Ball nose, radius 1.5 = diameter 3 mm
+Visible = 1
+OperationType = 1
+Feedrate = 1000.000000
+Spindlespeed = 2000
+UseRoughingLayers = 1
+RoughingLayerMethod = 1
+RoughingLayer = 10.000000
+UseRoughingRamping = 0
+RoughingRampingAngle = 5.000000
+AlwaysStayLow = 0
+ToolpathDistance = 0.666667
+ToolpathStepsize = 0.666667
+ToolpathSubSamplingFactor = 1
+SegmentMethod = 1
+SegmentMinimumX = 316.568850
+SegmentMinimumY = 2.603561
+SegmentMinimumZ = 32.125387
+SegmentMaximumX = 321.047058
+SegmentMaximumY = 7.138975
+SegmentMaximumZ = 39.352253
+SegmentMinimumAngle = 0.000000
+SegmentMaximumAngle = 360.000000
+BordersizeMethod = 1
+BordersizeStartX = 1.500000
+BordersizeStartY = 1.500000
+BordersizeEndX = 1.500000
+BordersizeEndY = 1.500000
+Strategy = 0
+StrategyParallelAngle = 0.000000
+CrosswiseFirstXthenY = 1
+StrategyCircularSpiral = 0
+StrategyMachineCorners = 0
+StrategyCentreMethod = 1
+StrategyCentreX = 318.807954
+StrategyCentreY = 4.871268
+SmoothToolpathTransitions = 0
+FillGaps = 0
+WaterlineDistance = 1.000000
+FillHorizontalWaterlinePlanes = 0
+IgnoreEnclosedContours = 0
+ContourOffset = 0.000000
+RoughingSkin = 0.000000
+RoughingVerticalPlaneCheck = 0
+Direction = 0
+PlungeRate = 100
+StartRate = 50
+Sorting = 1
+FreeMovementHeight = 5.000000
+SkipAmbient = 0
+SkipAmbientIgnoreEnclosed = 1
+ColletDiameter = 0
+CheckForVerticalPlanes = 0
+VerticalPlaneRatio = 20
+TiltAngle = 0.000000
+
+[Part2 Operation1]
 Name = Finishing
 Cutter = Ball nose, radius 1.5 = diameter 3 mm
 Visible = 1
@@ -691,8 +1073,8 @@ Spindlespeed = 10000
 PreStep Flags = 8
 PreStep Angle = 180.000000
 ChainPart = Side #4
-ChainOperation = Finishing
-UseRoughingLayers = 1
+ChainOperation = Finishing 2
+UseRoughingLayers = 0
 RoughingLayerMethod = 0
 RoughingLayer = 10.000000
 UseRoughingRamping = 0
@@ -702,10 +1084,10 @@ ToolpathDistance = 0.176471
 ToolpathStepsize = 0.176471
 ToolpathSubSamplingFactor = 1
 SegmentMethod = 2
-SegmentMinimumX = 0.207208
+SegmentMinimumX = 0.210000
 SegmentMinimumY = -37.096298
 SegmentMinimumZ = 0.000002
-SegmentMaximumX = 644.792761
+SegmentMaximumX = 644.789978
 SegmentMaximumY = 37.096390
 SegmentMaximumZ = 39.352253
 SegmentMinimumAngle = 0.000000
@@ -725,7 +1107,7 @@ CrosswiseFirstXthenY = 1
 StrategyCircularSpiral = 0
 StrategyMachineCorners = 1
 StrategyCentreMethod = 1
-StrategyCentreX = 322.499985
+StrategyCentreX = 322.499989
 StrategyCentreY = 0.000000
 SmoothToolpathTransitions = 0
 FillGaps = 0
@@ -767,14 +1149,19 @@ ShowSegmentTranslucent = 0
 ShowSubsegments = 1
 ShowSubsegmentTranslucent = 0
 ShowWorkingArea = 0
-RotationX = 9.213882
-RotationY = -10.283651
-RotationZ = -0.823012
-PanningX = 36.691469
-PanningY = 9.161805
-Zooming = 177.156100
+RotationX = -86.662657
+RotationY = 3.790642
+RotationZ = 4.592940
+PanningX = 102.570921
+PanningY = 7.350949
+Zooming = 146.410000
 
 [Part2 View0 Operation0]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part2 View0 Operation1]
 ShowSubsegments = 1
 ShowSubsegmentTranslucent = 0
 ShowPoints = 0
@@ -811,6 +1198,11 @@ ShowSubsegments = 1
 ShowSubsegmentTranslucent = 0
 ShowPoints = 0
 
+[Part2 View1 Operation1]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
 [Part2 View2]
 Name = 
 ShowName = 1
@@ -839,6 +1231,11 @@ PanningY = 0.000000
 Zooming = 100.000000
 
 [Part2 View2 Operation0]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part2 View2 Operation1]
 ShowSubsegments = 1
 ShowSubsegmentTranslucent = 0
 ShowPoints = 0
@@ -875,6 +1272,11 @@ ShowSubsegments = 1
 ShowSubsegmentTranslucent = 0
 ShowPoints = 0
 
+[Part2 View3 Operation1]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
 [Part3]
 Name = Side #4
 UseRotationAxis = 0
@@ -894,7 +1296,7 @@ SegmentMethod = 0
 SegmentMinimumX = -6.509409
 SegmentMinimumY = -39.352253
 SegmentMinimumZ = -37.096298
-SegmentMaximumX = 652.735168
+SegmentMaximumX = 652.735229
 SegmentMaximumY = 39.352249
 SegmentMaximumZ = 37.096390
 SegmentMinimumAngle = 0.000000
@@ -915,13 +1317,13 @@ CheckSimulationForRest = 0
 UseSimulationDefaultToleranceForRest = 1
 SimulationToleranceForRest = 0.659245
 WindowLayout = 0
-NumberOfOperations = 2
+NumberOfOperations = 3
 SupportBlockType = 3
 
 [Part3 Operation0]
 Name = Roughing
 Cutter = Flat tip, radius 5 = diameter 10 mm
-Visible = 1
+Visible = 0
 OperationType = 1
 Feedrate = 1200.000000
 Spindlespeed = 10000
@@ -958,7 +1360,7 @@ CrosswiseFirstXthenY = 1
 StrategyCircularSpiral = 0
 StrategyMachineCorners = 0
 StrategyCentreMethod = 1
-StrategyCentreX = 323.704590
+StrategyCentreX = 323.704589
 StrategyCentreY = 0.000000
 SmoothToolpathTransitions = 0
 FillGaps = 0
@@ -982,6 +1384,68 @@ TiltAngle = 0.000000
 
 [Part3 Operation1]
 Name = Finishing
+Cutter = Flat tip, radius 5 = diameter 10 mm
+Visible = 0
+OperationType = 1
+Feedrate = 1000.000000
+Spindlespeed = 2000
+UseRoughingLayers = 0
+RoughingLayerMethod = 0
+RoughingLayer = 30.000000
+UseRoughingRamping = 0
+RoughingRampingAngle = 5.000000
+AlwaysStayLow = 0
+ToolpathDistance = 3.333333
+ToolpathStepsize = 3.333333
+ToolpathSubSamplingFactor = 1
+SegmentMethod = 2
+SegmentMinimumX = 0.210000
+SegmentMinimumY = -39.352253
+SegmentMinimumZ = 1.784209
+SegmentMaximumX = 644.789978
+SegmentMaximumY = 39.352249
+SegmentMaximumZ = 37.096390
+SegmentMinimumAngle = 0.000000
+SegmentMaximumAngle = 360.000000
+SegmentNumPolygons = 1
+SegmentPolygon_1_NumPoints = 134
+SegmentPolygon_1_NumChunks = 1
+SegmentPolygon_1_1 = 0.21;-39.35|8.08;-38.57|30.12;-36.37|33.59;-36.06|43.35;-35.11|51.85;-34.48|63.50;-34.17|76.41;-34.17|78.62;-34.48|79.25;-34.80|82.71;-33.85|83.65;-32.91|83.97;-32.28|84.28;-31.33|84.60;-30.70|84.91;-30.39|85.23;-29.76|86.17;-28.81|86.80;-28.50|87.12;-28.18|91.53;-25.98|98.45;-23.77|109.48;-21.26|123.33;-19.05|142.54;-16.85|161.12;-15.27|180.01;-14.01|191.03;-13.38|201.42;-13.07|224.10;-12.44|235.12;-12.12|257.79;-11.49|269.76;-11.18|282.04;-10.86|295.26;-10.55|314.79;-11.18|323.92;-11.49|364.22;-12.12|368.00;-12.12|419.64;-11.49|472.86;-11.49|472.86;-11.81|485.46;-11.81|495.53;-11.18|499.63;-10.86|503.09;-10.55|505.61;-10.23|507.18;-9.92|508.13;-9.60|508.76;-9.29|510.65;-8.66|528.28;-7.71|567.96;-7.71|585.28;-8.34|602.91;-8.97|612.04;-9.29|625.58;-9.92|628.42;-8.97|629.99;-8.34|630.62;-8.03|633.46;-8.03|633.46;-8.34|640.07;-8.34|643.22;-7.71|643.85;-7.40|644.79;-6.46|644.79;-3.94|644.16;-2.05|643.85;-1.42|643.22;-0.47|641.64;1.42|641.01;2.05|640.38;3.31|640.38;5.20|640.70;6.14|641.01;6.46|642.59;8.66|643.85;11.18|644.16;12.44|644.79;17.16|644.16;21.57|643.53;22.20|642.59;22.51|600.39;22.83|581.18;23.14|563.55;23.46|547.49;23.77|536.47;24.09|525.76;24.40|514.74;24.72|503.09;25.03|490.81;25.35|479.16;25.66|468.45;25.98|453.65;26.29|435.39;26.61|416.81;26.92|399.81;27.24|384.69;27.55|371.15;27.87|358.87;28.18|347.85;28.50|337.14;28.81|317.93;29.44|300.30;30.07|283.93;30.70|268.18;31.33|253.70;31.96|232.91;32.91|213.39;33.85|194.50;34.80|179.38;35.74|174.34;36.06|161.43;36.69|154.82;37.00|141.28;37.63|134.04;37.94|124.59;38.26|114.51;38.57|104.12;38.89|84.60;39.35|66.02;38.89|34.85;37.94|24.77;37.63|14.38;37.31|10.91;37.00|9.02;23.77|8.71;21.26|5.25;-2.99|3.36;-16.22|1.78;-27.24|0.84;-34.48|0.52;-37.63|0.21;-37.63|
+BordersizeMethod = 1
+BordersizeStartX = 5.000000
+BordersizeStartY = 5.000000
+BordersizeEndX = 5.000000
+BordersizeEndY = 5.000000
+Strategy = 1
+StrategyParallelAngle = 0.000000
+CrosswiseFirstXthenY = 1
+StrategyCircularSpiral = 0
+StrategyMachineCorners = 1
+StrategyCentreMethod = 1
+StrategyCentreX = 322.499989
+StrategyCentreY = 0.000000
+SmoothToolpathTransitions = 0
+FillGaps = 0
+WaterlineDistance = 1.000000
+FillHorizontalWaterlinePlanes = 0
+IgnoreEnclosedContours = 0
+ContourOffset = 0.000000
+RoughingSkin = 0.000000
+RoughingVerticalPlaneCheck = 0
+Direction = 0
+PlungeRate = 100
+StartRate = 50
+Sorting = 1
+FreeMovementHeight = 30.000000
+SkipAmbient = 0
+SkipAmbientIgnoreEnclosed = 1
+ColletDiameter = 0
+CheckForVerticalPlanes = 0
+VerticalPlaneRatio = 20
+TiltAngle = 0.000000
+
+[Part3 Operation2]
+Name = Finishing 2
 Cutter = Ball nose, radius 1.5 = diameter 3 mm
 Visible = 1
 OperationType = 1
@@ -997,22 +1461,22 @@ RoughingLayer = 10.000000
 UseRoughingRamping = 0
 RoughingRampingAngle = 5.000000
 AlwaysStayLow = 0
-ToolpathDistance = 0.176471
-ToolpathStepsize = 0.176471
+ToolpathDistance = 0.333333
+ToolpathStepsize = 0.333333
 ToolpathSubSamplingFactor = 1
 SegmentMethod = 2
-SegmentMinimumX = 0.207208
-SegmentMinimumY = -39.352253
+SegmentMinimumX = 68.959999
+SegmentMinimumY = -22.309999
 SegmentMinimumZ = 0.000046
-SegmentMaximumX = 644.792761
-SegmentMaximumY = 39.352249
+SegmentMaximumX = 644.109985
+SegmentMaximumY = 23.580000
 SegmentMaximumZ = 37.096390
 SegmentMinimumAngle = 0.000000
 SegmentMaximumAngle = 360.000000
 SegmentNumPolygons = 1
-SegmentPolygon_1_NumPoints = 132
+SegmentPolygon_1_NumPoints = 29
 SegmentPolygon_1_NumChunks = 1
-SegmentPolygon_1_1 = 0.21;-39.35|8.08;-38.57|30.12;-36.37|33.59;-36.06|43.35;-35.11|51.85;-34.48|63.50;-34.17|76.41;-34.17|78.62;-34.48|79.25;-34.80|82.71;-33.85|83.65;-32.91|83.97;-32.28|84.28;-31.33|84.60;-30.70|84.91;-30.39|85.23;-29.76|86.17;-28.81|86.80;-28.50|87.12;-28.18|91.53;-25.98|98.45;-23.77|109.48;-21.26|123.33;-19.05|142.54;-16.85|161.12;-15.27|180.01;-14.01|191.03;-13.38|201.42;-13.07|224.10;-12.44|235.12;-12.12|257.79;-11.49|269.76;-11.18|282.04;-10.86|295.26;-10.55|314.79;-11.18|323.92;-11.49|364.22;-12.12|368.00;-12.12|419.64;-11.49|472.86;-11.49|472.86;-11.81|485.46;-11.81|495.53;-11.18|499.63;-10.86|503.09;-10.55|505.61;-10.23|507.18;-9.92|508.13;-9.60|508.76;-9.29|510.65;-8.66|528.28;-7.71|567.96;-7.71|585.43;-7.13|603.74;-7.16|617.91;-7.09|630.44;-6.94|631.78;-6.73|632.96;-6.67|635.79;-6.79|640.46;-6.54|643.22;-7.71|643.85;-7.40|644.79;-6.46|644.79;-3.94|644.16;-2.05|643.85;-1.42|643.22;-0.47|641.64;1.42|641.01;2.05|640.38;3.31|640.38;5.20|640.70;6.14|641.01;6.46|642.59;8.66|643.85;11.18|644.16;12.44|644.79;17.16|644.16;21.57|643.53;22.20|642.59;22.51|600.39;22.83|581.18;23.14|563.55;23.46|547.49;23.77|536.47;24.09|525.76;24.40|514.74;24.72|503.09;25.03|490.81;25.35|479.16;25.66|468.45;25.98|453.65;26.29|435.39;26.61|416.81;26.92|399.81;27.24|384.69;27.55|371.15;27.87|358.87;28.18|347.85;28.50|337.14;28.81|317.93;29.44|300.30;30.07|283.93;30.70|268.18;31.33|253.70;31.96|232.91;32.91|213.39;33.85|194.50;34.80|179.38;35.74|174.34;36.06|161.43;36.69|154.82;37.00|141.28;37.63|134.04;37.94|124.59;38.26|114.51;38.57|104.12;38.89|84.60;39.35|66.02;38.89|34.85;37.94|24.77;37.63|14.38;37.31|10.91;37.00|9.02;23.77|8.71;21.26|5.25;-2.99|3.36;-16.22|1.78;-27.24|0.84;-34.48|0.52;-37.63|0.21;-37.63|
+SegmentPolygon_1_1 = 137.94;6.99|78.12;0.27|68.96;-22.31|112.91;-18.65|180.06;-12.54|272.22;-8.88|357.01;-7.15|427.74;-5.52|487.54;-4.77|506.01;-8.76|513.94;-5.31|577.41;-5.60|631.61;-7.27|644.11;-7.27|643.70;-1.02|640.78;6.49|642.03;11.91|607.84;13.57|559.48;15.24|517.37;14.83|514.04;18.99|511.95;23.58|496.11;23.58|471.51;14.41|442.33;13.16|362.97;12.72|271.41;11.62|222.06;10.80|168.79;9.14|
 BordersizeMethod = 3
 BordersizeStartX = 0.000000
 BordersizeStartY = 0.000000
@@ -1024,8 +1488,8 @@ CrosswiseFirstXthenY = 1
 StrategyCircularSpiral = 0
 StrategyMachineCorners = 1
 StrategyCentreMethod = 1
-StrategyCentreX = 322.499985
-StrategyCentreY = 0.000000
+StrategyCentreX = 356.534992
+StrategyCentreY = 0.635000
 SmoothToolpathTransitions = 0
 FillGaps = 0
 WaterlineDistance = 1.000000
@@ -1066,12 +1530,12 @@ ShowSegmentTranslucent = 0
 ShowSubsegments = 1
 ShowSubsegmentTranslucent = 0
 ShowWorkingArea = 0
-RotationX = -45.000000
-RotationY = 35.300000
-RotationZ = 30.000000
-PanningX = 0.000000
-PanningY = 0.000000
-Zooming = 100.000000
+RotationX = -40.636936
+RotationY = -5.854605
+RotationZ = 9.735479
+PanningX = 38.394161
+PanningY = -73.504680
+Zooming = 161.051000
 
 [Part3 View0 Operation0]
 ShowSubsegments = 1
@@ -1079,6 +1543,11 @@ ShowSubsegmentTranslucent = 0
 ShowPoints = 0
 
 [Part3 View0 Operation1]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part3 View0 Operation2]
 ShowSubsegments = 1
 ShowSubsegmentTranslucent = 0
 ShowPoints = 0
@@ -1120,6 +1589,11 @@ ShowSubsegments = 1
 ShowSubsegmentTranslucent = 0
 ShowPoints = 0
 
+[Part3 View1 Operation2]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
 [Part3 View2]
 Name = 
 ShowName = 1
@@ -1153,6 +1627,11 @@ ShowSubsegmentTranslucent = 0
 ShowPoints = 0
 
 [Part3 View2 Operation1]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part3 View2 Operation2]
 ShowSubsegments = 1
 ShowSubsegmentTranslucent = 0
 ShowPoints = 0
@@ -1194,9 +1673,30 @@ ShowSubsegments = 1
 ShowSubsegmentTranslucent = 0
 ShowPoints = 0
 
+[Part3 View3 Operation2]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
 [NCFiles]
-NCFileCount = 2
+NCFileCount = 10
 NCFile0 = F:/Spinka/Sp_Pravo\1#1_Roughing_to_Roughing.iso
-NCFile0Properties = Part0,Operation0,#1,0,1597246254
+NCFile0Properties = Part0,Operation1,#1,0,1597246254
 NCFile1 = F:/Spinka/Sp_Pravo\1#2_Finishing_to_Finishing.iso
-NCFile1Properties = Part3,Operation1,#2,0,1597246254
+NCFile1Properties = Part3,Operation2,#2,0,1597246254
+NCFile2 = D:/Работа/angelo-cappelini-chair/programs/spinka/3_finish.iso
+NCFile2Properties = Part2,Operation1,#1,0,1597255883
+NCFile3 = D:/Работа/angelo-cappelini-chair/programs/spinka/4_finish.iso
+NCFile3Properties = Part3,Operation2,#1,0,1597255969
+NCFile4 = D:/Работа/angelo-cappelini-chair/programs/spinka\1#1_Roughing_to_Roughing.iso
+NCFile4Properties = Part0,Operation1,#1,0,1597257067
+NCFile5 = D:/Работа/angelo-cappelini-chair/programs/spinka\1#2_Finishing_to_Finishing.iso
+NCFile5Properties = Part3,Operation2,#2,0,1597257079
+NCFile6 = D:/Работа/angelo-cappelini-chair/programs/spinka\3_4_sides#1_Roughing_to_Roughing.iso
+NCFile6Properties = Part0,Operation1,#1,0,1597256573
+NCFile7 = D:/Работа/angelo-cappelini-chair/programs/spinka\3_4_sides#2_Finishing.iso
+NCFile7Properties = Part1,Operation1,#2,0,1597256574
+NCFile8 = D:/Работа/angelo-cappelini-chair/programs/spinka\3_4_sides#3_Finishing.iso
+NCFile8Properties = Part2,Operation1,#3,0,1597256577
+NCFile9 = D:/Работа/angelo-cappelini-chair/programs/spinka\3_4_sides#4_Finishing_to_Finishing.iso
+NCFile9Properties = Part3,Operation2,#4,0,1597256585
