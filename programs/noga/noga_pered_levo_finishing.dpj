@@ -12,7 +12,7 @@ PreserveCurveDirection = 0
 NumberOfBitmapFiles = 0
 CADFileUnit = 0
 NumberOfParts = 4
-ActivePartIndex = 3
+ActivePartIndex = 0
 SavedToolpaths = 0
 UseTranslationForOperationSegment = 1
 UseTranslationForPartSegment = 1
@@ -87,7 +87,7 @@ SupportBlockType = 0
 [Part0 Operation0]
 Name = Roughing
 Cutter = Ball nose, radius 3 = diameter 6 mm
-Visible = 0
+Visible = 1
 OperationType = 1
 Feedrate = 1200.000000
 Spindlespeed = 10000
@@ -406,7 +406,7 @@ SupportBlockType = 3
 [Part1 Operation0]
 Name = Roughing
 Cutter = Ball nose, radius 3 = diameter 6 mm
-Visible = 0
+Visible = 1
 OperationType = 1
 Feedrate = 1200.000000
 Spindlespeed = 10000
@@ -725,7 +725,7 @@ SupportBlockType = 3
 [Part2 Operation0]
 Name = Roughing
 Cutter = Ball nose, radius 3 = diameter 6 mm
-Visible = 0
+Visible = 1
 OperationType = 1
 Feedrate = 1200.000000
 Spindlespeed = 10000
@@ -1044,7 +1044,7 @@ SupportBlockType = 3
 [Part3 Operation0]
 Name = Roughing
 Cutter = Ball nose, radius 3 = diameter 6 mm
-Visible = 0
+Visible = 1
 OperationType = 1
 Feedrate = 1200.000000
 Spindlespeed = 10000
@@ -1318,7 +1318,7 @@ ShowSubsegmentTranslucent = 0
 ShowPoints = 0
 
 [NCFiles]
-NCFileCount = 4
+NCFileCount = 6
 NCFile0 = F:/Noga/Pered/Levo/f1.iso
 NCFile0Properties = Part0,Operation1,#1,0,1597825362
 NCFile1 = F:/Noga/Pered/Levo/f2.iso
@@ -1327,3 +1327,7 @@ NCFile2 = F:/Noga/Pered/Levo/f3.iso
 NCFile2Properties = Part2,Operation1,#1,0,1597833236
 NCFile3 = F:/Noga/Pered/Levo/f4.iso
 NCFile3Properties = Part3,Operation1,#1,0,1597836388
+NCFile4 = F:/Noga/Pered/Levo\1#1_Roughing_to_Roughing.iso
+NCFile4Properties = Part0,Operation1,#1,0,1597850182
+NCFile5 = F:/Noga/Pered/Levo\1#2_Finishing_to_Finishing.iso
+NCFile5Properties = Part3,Operation1,#2,0,1597850184

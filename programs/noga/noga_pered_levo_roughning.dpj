@@ -166,11 +166,11 @@ ShowSegmentTranslucent = 0
 ShowSubsegments = 1
 ShowSubsegmentTranslucent = 0
 ShowWorkingArea = 0
-RotationX = -96.467299
-RotationY = -7.079514
-RotationZ = 3.310218
+RotationX = 123.323045
+RotationY = 64.682469
+RotationZ = 197.945620
 PanningX = 0.000000
-PanningY = -0.000000
+PanningY = 0.000000
 Zooming = 100.000000
 
 [Part0 View0 Operation0]
@@ -399,11 +399,11 @@ ShowSegmentTranslucent = 0
 ShowSubsegments = 1
 ShowSubsegmentTranslucent = 0
 ShowWorkingArea = 0
-RotationX = 93.766410
-RotationY = -6.606387
-RotationZ = 9.459601
+RotationX = 0.000000
+RotationY = 0.000000
+RotationZ = 0.000000
 PanningX = 0.000000
-PanningY = -0.000000
+PanningY = 0.000000
 Zooming = 100.000000
 
 [Part1 View0 Operation0]
@@ -573,7 +573,7 @@ ToolpathSubSamplingFactor = 1
 SegmentMethod = 1
 SegmentMinimumX = -414.154236
 SegmentMinimumY = 0.000000
-SegmentMinimumZ = -5.000000
+SegmentMinimumZ = -0.354919
 SegmentMaximumX = -16.490570
 SegmentMaximumY = 40.563774
 SegmentMaximumZ = 45.117165
@@ -581,9 +581,9 @@ SegmentMinimumAngle = 0.000000
 SegmentMaximumAngle = 360.000000
 BordersizeMethod = 3
 BordersizeStartX = 0.000000
-BordersizeStartY = 15.000000
+BordersizeStartY = 0.000000
 BordersizeEndX = 0.000000
-BordersizeEndY = 15.000000
+BordersizeEndY = 0.000000
 Strategy = 0
 StrategyParallelAngle = 0.000000
 CrosswiseFirstXthenY = 1
@@ -863,11 +863,11 @@ ShowSegmentTranslucent = 0
 ShowSubsegments = 1
 ShowSubsegmentTranslucent = 0
 ShowWorkingArea = 0
-RotationX = 97.502048
-RotationY = -0.591580
-RotationZ = 0.886148
+RotationX = -69.499396
+RotationY = 1.982728
+RotationZ = 7.619356
 PanningX = 0.000000
-PanningY = -0.000000
+PanningY = 0.000000
 Zooming = 100.000000
 
 [Part3 View0 Operation0]
@@ -970,3 +970,8 @@ Zooming = 100.000000
 ShowSubsegments = 1
 ShowSubsegmentTranslucent = 0
 ShowPoints = 0
+
+[NCFiles]
+NCFileCount = 1
+NCFile0 = F:/Noga/Pered/Levo/roughning.iso
+NCFile0Properties = Part3,Operation0,#1,0,1597822534

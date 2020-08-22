@@ -12,7 +12,7 @@ PreserveCurveDirection = 0
 NumberOfBitmapFiles = 0
 CADFileUnit = 0
 NumberOfParts = 4
-ActivePartIndex = 3
+ActivePartIndex = 0
 SavedToolpaths = 0
 UseTranslationForOperationSegment = 1
 UseTranslationForPartSegment = 1
@@ -406,7 +406,7 @@ SupportBlockType = 3
 [Part1 Operation0]
 Name = Roughing
 Cutter = Flat tip, radius 5 = diameter 10 mm
-Visible = 0
+Visible = 1
 OperationType = 1
 Feedrate = 1200.000000
 Spindlespeed = 10000
@@ -1044,7 +1044,7 @@ SupportBlockType = 3
 [Part3 Operation0]
 Name = Roughing
 Cutter = Flat tip, radius 5 = diameter 10 mm
-Visible = 0
+Visible = 1
 OperationType = 1
 Feedrate = 1200.000000
 Spindlespeed = 10000
@@ -1189,11 +1189,11 @@ ShowSegmentTranslucent = 0
 ShowSubsegments = 1
 ShowSubsegmentTranslucent = 0
 ShowWorkingArea = 0
-RotationX = 62.862833
-RotationY = 2.168416
-RotationZ = 157.552847
-PanningX = 14.415800
-PanningY = -0.229759
+RotationX = 0.000000
+RotationY = 0.000000
+RotationZ = 0.000000
+PanningX = 0.000000
+PanningY = 0.000000
 Zooming = 100.000000
 
 [Part3 View0 Operation0]
@@ -1316,3 +1316,10 @@ ShowPoints = 0
 ShowSubsegments = 1
 ShowSubsegmentTranslucent = 0
 ShowPoints = 0
+
+[NCFiles]
+NCFileCount = 2
+NCFile0 = F:/Carga/bok_levo\1#1_Roughing_to_Finishing.iso
+NCFile0Properties = Part3,Operation1,#1,0,1597654200
+NCFile1 = F:/Carga/bok_levo\1#2_Finishing.iso
+NCFile1Properties = Part3,Operation1,#2,0,1597654200

@@ -12,7 +12,7 @@ PreserveCurveDirection = 0
 NumberOfBitmapFiles = 0
 CADFileUnit = 0
 NumberOfParts = 4
-ActivePartIndex = 3
+ActivePartIndex = 0
 SavedToolpaths = 0
 UseTranslationForOperationSegment = 1
 UseTranslationForPartSegment = 1
@@ -166,12 +166,12 @@ ShowSegmentTranslucent = 0
 ShowSubsegments = 1
 ShowSubsegmentTranslucent = 0
 ShowWorkingArea = 0
-RotationX = -96.802493
-RotationY = -8.774031
-RotationZ = -10.030249
-PanningX = 0.000000
-PanningY = -0.000000
-Zooming = 100.000000
+RotationX = -89.703205
+RotationY = -6.210519
+RotationZ = -0.476235
+PanningX = -48.669740
+PanningY = -97.256638
+Zooming = 214.358881
 
 [Part0 View0 Operation0]
 ShowSubsegments = 1
@@ -972,6 +972,8 @@ ShowSubsegmentTranslucent = 0
 ShowPoints = 0
 
 [NCFiles]
-NCFileCount = 1
+NCFileCount = 2
 NCFile0 = F:/Noga/Pered/Pravo/1.iso
 NCFile0Properties = Part3,Operation0,#1,0,1597666328
+NCFile1 = F:/Noga/Pered/Pravo/roughning.iso
+NCFile1Properties = Part3,Operation0,#1,0,1597742738
