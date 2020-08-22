@@ -1,0 +1,1368 @@
+[DeskProto Project]
+Version = 7.0
+Edition = MultiAxis
+WizardType = none
+NumberOfGeometryFiles = 1
+FlipNormals = 0
+SkipBackfaces = 0
+NumberOfVectorFiles = 0
+UseVectorDataZValues = 0
+IsUseVectorDataZValuesSet = 0
+PreserveCurveDirection = 0
+NumberOfBitmapFiles = 0
+CADFileUnit = 0
+NumberOfParts = 4
+ActivePartIndex = 0
+SavedToolpaths = 0
+UseTranslationForOperationSegment = 1
+UseTranslationForPartSegment = 1
+UseTranslationForGeometrySupports = 1
+UseTranslationForCentre = 1
+UseTranslationForAmbient = 1
+UseTranslationForVectorSelection = 1
+UseTranslationForVectorSupports = 1
+UseDimensionScalingForGeometry = 0
+UseDimensionScalingForVector = 0
+UseDimensionScalingForBitmap = 0
+Machine = ISO plain G-codes_with_rotation_axis - mm
+
+[DeskProto Project GeometryFile0]
+FilePath = D:/Работа/angelo-cappelini-chair/3d-models/podlokotnik/Podlokotnik_Niz_levo.STL
+ScaleX = 1.000000
+ScaleY = 1.000000
+ScaleZ = 1.000000
+RotationX = 0.000000
+RotationY = 0.000000
+RotationZ = 0.000000
+TranslationX = 0.000000
+TranslationY = 0.000000
+TranslationZ = 0.000000
+MirrorX = 0
+MirrorY = 0
+MirrorZ = 0
+
+[Part0]
+Name = Side #1
+UseRotationAxis = 0
+UseTiltOption = 0
+ScaleX = 1.000000
+ScaleY = 1.000000
+ScaleZ = 1.000000
+MirrorX = 0
+MirrorY = 0
+MirrorZ = 0
+RotationX = 0.000000
+RotationY = 0.000000
+RotationZ = 180.000000
+InverseMilling = 0
+CenteringGeometry = 0
+SegmentMethod = 0
+SegmentMinimumX = -262.656891
+SegmentMinimumY = -43.947327
+SegmentMinimumZ = -24.902283
+SegmentMaximumX = 7.904260
+SegmentMaximumY = 43.947327
+SegmentMaximumZ = 24.902283
+SegmentMinimumAngle = 0.000000
+SegmentMaximumAngle = 360.000000
+AmbientlevelMethod = 0
+AmbientlevelZ = -24.902283
+TranslationMethodX = 1
+TranslationMethodY = 0
+TranslationMethodZ = 0
+TranslationCustomX = 0.000000
+TranslationCustomY = 0.000000
+TranslationCustomZ = 0.000000
+SimulationDetailLevel = 2
+CheckSimulationForRemoved = 0
+UseSimulationDefaultToleranceForRemoved = 1
+SimulationToleranceForRemoved = 0.270561
+CheckSimulationForRest = 0
+UseSimulationDefaultToleranceForRest = 1
+SimulationToleranceForRest = 0.270561
+WindowLayout = 0
+NumberOfOperations = 2
+SupportBlockType = 2
+NumberOfSupports = 2
+
+[Part0 Support0]
+Shape = Cylinder
+Name = LeftBridge
+Matrix[0][0] = 0.000000
+Matrix[0][1] = -51.789010
+Matrix[0][2] = -0.000000
+Matrix[0][3] = 0.000000
+Matrix[1][0] = 0.000000
+Matrix[1][1] = 0.000000
+Matrix[1][2] = 30.765749
+Matrix[1][3] = 0.000000
+Matrix[2][0] = -27.344074
+Matrix[2][1] = -0.000000
+Matrix[2][2] = 0.000000
+Matrix[2][3] = 0.000000
+Matrix[3][0] = -248.984854
+Matrix[3][1] = -1.794669
+Matrix[3][2] = -1.025525
+Matrix[3][3] = 1.000000
+
+[Part0 Support1]
+Shape = Cylinder
+Name = RightBridge
+Matrix[0][0] = 0.000000
+Matrix[0][1] = 33.842323
+Matrix[0][2] = -0.000000
+Matrix[0][3] = 0.000000
+Matrix[1][0] = -0.000000
+Matrix[1][1] = 0.000000
+Matrix[1][2] = 28.201936
+Matrix[1][3] = 0.000000
+Matrix[2][0] = 22.729212
+Matrix[2][1] = -0.000000
+Matrix[2][2] = 0.000000
+Matrix[2][3] = 0.000000
+Matrix[3][0] = -3.460346
+Matrix[3][1] = -2.051050
+Matrix[3][2] = 2.820194
+Matrix[3][3] = 1.000000
+
+[Part0 Operation0]
+Name = Roughing
+Cutter = Ball nose, radius 5 = diameter 10 mm
+Visible = 1
+OperationType = 1
+Feedrate = 1200.000000
+Spindlespeed = 10000
+PreStep Flags = 8
+PreStep Angle = 0.000000
+ChainPart = Side #2
+ChainOperation = Roughing
+UseRoughingLayers = 1
+RoughingLayerMethod = 1
+RoughingLayer = 10.000000
+UseRoughingRamping = 1
+RoughingRampingAngle = 5.000000
+AlwaysStayLow = 0
+ToolpathDistance = 5.000000
+ToolpathStepsize = 5.000000
+ToolpathSubSamplingFactor = 1
+SegmentMethod = 1
+SegmentMinimumX = -256.281257
+SegmentMinimumY = -43.947327
+SegmentMinimumZ = 0.000000
+SegmentMaximumX = 0.482744
+SegmentMaximumY = 43.947327
+SegmentMaximumZ = 24.902283
+SegmentMinimumAngle = 0.000000
+SegmentMaximumAngle = 360.000000
+BordersizeMethod = 3
+BordersizeStartX = 0.000000
+BordersizeStartY = 5.000000
+BordersizeEndX = 0.000000
+BordersizeEndY = 5.000000
+Strategy = 0
+StrategyParallelAngle = 0.000000
+CrosswiseFirstXthenY = 1
+StrategyCircularSpiral = 0
+StrategyMachineCorners = 0
+StrategyCentreMethod = 1
+StrategyCentreX = -127.899256
+StrategyCentreY = 0.000000
+SmoothToolpathTransitions = 0
+FillGaps = 0
+WaterlineDistance = 1.000000
+FillHorizontalWaterlinePlanes = 0
+IgnoreEnclosedContours = 0
+ContourOffset = 0.000000
+RoughingSkin = 6.000000
+RoughingVerticalPlaneCheck = 0
+Direction = 0
+PlungeRate = 100
+StartRate = 50
+Sorting = 1
+FreeMovementHeight = 30.000000
+SkipAmbient = 0
+SkipAmbientIgnoreEnclosed = 1
+ColletDiameter = 0
+CheckForVerticalPlanes = 0
+VerticalPlaneRatio = 20
+TiltAngle = 0.000000
+
+[Part0 Operation1]
+Name = Finishing
+Cutter = Ball nose, radius 1.5 = diameter 3 mm
+Visible = 0
+OperationType = 1
+Feedrate = 1200.000000
+Spindlespeed = 10000
+PreStep Flags = 8
+PreStep Angle = 0.000000
+ChainPart = Side #2
+ChainOperation = Finishing
+UseRoughingLayers = 0
+RoughingLayerMethod = 0
+RoughingLayer = 10.000000
+UseRoughingRamping = 0
+RoughingRampingAngle = 5.000000
+AlwaysStayLow = 0
+ToolpathDistance = 0.333333
+ToolpathStepsize = 0.333333
+ToolpathSubSamplingFactor = 1
+SegmentMethod = 2
+SegmentMinimumX = -254.619045
+SegmentMinimumY = -43.947327
+SegmentMinimumZ = 0.000000
+SegmentMaximumX = -0.133579
+SegmentMaximumY = 43.947327
+SegmentMaximumZ = 24.902283
+SegmentMinimumAngle = 0.000000
+SegmentMaximumAngle = 360.000000
+SegmentNumPolygons = 1
+SegmentPolygon_1_NumPoints = 175
+SegmentPolygon_1_NumChunks = 1
+SegmentPolygon_1_1 = -254.62;39.97|-253.38;33.13|-252.26;26.79|-251.14;20.45|-250.02;14.11|-248.90;7.77|-248.40;4.91|-247.28;-1.43|-246.17;-7.77|-245.05;-14.11|-243.93;-20.45|-242.81;-26.79|-241.69;-33.13|-240.57;-39.47|-240.20;-41.59|-239.82;-43.70|-239.82;-43.95|-239.33;-43.70|-238.58;-43.20|-237.34;-42.33|-236.10;-41.46|-234.48;-40.34|-234.35;-40.22|-231.37;-38.73|-231.00;-38.60|-224.04;-35.12|-223.66;-35.00|-220.68;-33.88|-215.08;-31.76|-213.47;-31.14|-213.22;-31.02|-205.89;-28.78|-201.29;-27.41|-194.20;-25.67|-189.97;-24.68|-184.00;-23.56|-180.40;-22.94|-177.91;-22.56|-170.45;-21.94|-161.25;-21.94|-155.41;-22.32|-150.19;-22.81|-143.23;-23.68|-137.26;-24.55|-133.03;-25.18|-126.20;-26.29|-119.36;-27.41|-115.50;-28.03|-109.29;-29.03|-103.07;-30.02|-99.59;-30.52|-94.99;-31.14|-87.66;-32.14|-86.54;-32.26|-81.94;-32.63|-77.34;-33.01|-74.23;-33.26|-70.13;-33.38|-64.66;-33.50|-61.80;-33.63|-56.20;-33.38|-52.60;-33.26|-49.99;-33.13|-43.89;-32.63|-40.91;-32.39|-39.67;-32.26|-35.19;-31.76|-30.84;-31.27|-28.85;-31.02|-21.39;-30.02|-16.17;-29.28|-10.20;-28.41|-3.99;-27.54|-0.26;-27.16|-0.13;-27.04|-1.25;-21.07|-1.75;-18.21|-2.87;-11.87|-3.99;-5.53|-5.11;0.81|-6.23;7.15|-7.34;13.49|-8.46;19.83|-9.71;27.41|-9.83;27.41|-13.06;25.80|-14.68;24.93|-16.92;23.68|-20.02;21.94|-24.75;19.33|-28.60;17.22|-28.73;17.09|-37.93;12.49|-38.30;12.37|-38.92;12.12|-40.41;11.50|-42.78;10.51|-45.14;9.51|-48.74;8.14|-49.24;8.02|-56.08;5.91|-56.95;5.66|-57.69;5.53|-63.91;4.41|-65.28;4.16|-65.90;4.04|-69.88;3.79|-77.09;3.54|-78.33;3.67|-83.43;4.16|-87.28;4.54|-93.62;6.03|-96.23;6.65|-97.35;6.90|-97.73;7.02|-103.44;8.76|-103.94;8.89|-111.40;11.38|-111.65;11.50|-115.88;13.12|-120.10;14.73|-127.07;17.47|-134.40;20.45|-135.77;21.07|-136.14;21.20|-142.85;24.55|-143.97;25.05|-144.84;25.42|-146.96;26.29|-147.58;26.54|-149.32;27.16|-151.56;27.91|-152.80;28.28|-153.67;28.53|-154.17;28.66|-155.29;28.90|-155.66;29.03|-156.16;29.28|-158.08;29.43|-160.62;29.43|-163.22;30.07|-164.09;29.89|-164.62;28.49|-165.40;27.35|-167.09;26.49|-187.32;35.44|-187.60;40.18|-188.11;42.33|-189.60;42.58|-190.59;42.58|-192.83;42.33|-193.70;42.33|-193.95;42.58|-194.45;43.57|-194.82;43.95|-197.56;43.95|-200.91;43.57|-204.02;43.20|-212.97;42.08|-214.09;41.96|-218.32;41.46|-225.15;40.72|-228.76;40.34|-235.97;39.72|-240.57;39.47|-247.04;39.60|-248.53;39.72|-249.15;39.84|-251.01;40.22|-251.76;40.47|-253.25;40.84|-254.00;40.84|-254.25;40.09|-254.37;39.84|-254.37;39.97|
+BordersizeMethod = 3
+BordersizeStartX = 0.000000
+BordersizeStartY = 0.000000
+BordersizeEndX = 0.000000
+BordersizeEndY = 0.000000
+Strategy = 0
+StrategyParallelAngle = 45.000000
+CrosswiseFirstXthenY = 1
+StrategyCircularSpiral = 0
+StrategyMachineCorners = 1
+StrategyCentreMethod = 1
+StrategyCentreX = -127.376312
+StrategyCentreY = 0.000000
+SmoothToolpathTransitions = 0
+FillGaps = 0
+WaterlineDistance = 1.000000
+FillHorizontalWaterlinePlanes = 0
+IgnoreEnclosedContours = 0
+ContourOffset = 0.000000
+RoughingSkin = 0.000000
+RoughingVerticalPlaneCheck = 0
+Direction = 0
+PlungeRate = 100
+StartRate = 50
+Sorting = 1
+FreeMovementHeight = 30.000000
+SkipAmbient = 1
+SkipAmbientIgnoreEnclosed = 1
+ColletDiameter = 0
+CheckForVerticalPlanes = 0
+VerticalPlaneRatio = 20
+TiltAngle = 0.000000
+
+[Part0 View0]
+Name = 
+ShowName = 1
+ShowOrientator = 1
+ShowWorkpieceZeroPoint = 1
+ShowCadZeroPoint = 0
+ShowGeometryWireframe = 0
+RemoveHiddenLines = 0
+ShowGeometryRendered = 1
+ShowDownwardFaces = 0
+ShowGeometryPoints = 0
+ShowVectors = 1
+ShowVectorsPoints = 0
+ShowBitmap = 1
+ShowBitmapTranslucent = 1
+ShowSegment = 1
+ShowSegmentTranslucent = 0
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowWorkingArea = 0
+RotationX = -6.733039
+RotationY = -1.737485
+RotationZ = 1.837902
+PanningX = 0.000000
+PanningY = 0.000000
+Zooming = 100.000000
+
+[Part0 View0 Operation0]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part0 View0 Operation1]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part0 View1]
+Name = 
+ShowName = 1
+ShowOrientator = 1
+ShowWorkpieceZeroPoint = 1
+ShowCadZeroPoint = 0
+ShowGeometryWireframe = 0
+RemoveHiddenLines = 0
+ShowGeometryRendered = 1
+ShowDownwardFaces = 0
+ShowGeometryPoints = 0
+ShowVectors = 1
+ShowVectorsPoints = 0
+ShowBitmap = 1
+ShowBitmapTranslucent = 1
+ShowSegment = 1
+ShowSegmentTranslucent = 0
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowWorkingArea = 0
+RotationX = -75.000000
+RotationY = 30.000000
+RotationZ = 7.600000
+PanningX = 0.000000
+PanningY = 0.000000
+Zooming = 100.000000
+
+[Part0 View1 Operation0]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part0 View1 Operation1]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part0 View2]
+Name = 
+ShowName = 1
+ShowOrientator = 1
+ShowWorkpieceZeroPoint = 1
+ShowCadZeroPoint = 0
+ShowGeometryWireframe = 0
+RemoveHiddenLines = 0
+ShowGeometryRendered = 1
+ShowDownwardFaces = 0
+ShowGeometryPoints = 0
+ShowVectors = 1
+ShowVectorsPoints = 0
+ShowBitmap = 1
+ShowBitmapTranslucent = 1
+ShowSegment = 1
+ShowSegmentTranslucent = 0
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowWorkingArea = 0
+RotationX = -75.000000
+RotationY = 30.000000
+RotationZ = 7.600000
+PanningX = 0.000000
+PanningY = 0.000000
+Zooming = 100.000000
+
+[Part0 View2 Operation0]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part0 View2 Operation1]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part0 View3]
+Name = 
+ShowName = 1
+ShowOrientator = 1
+ShowWorkpieceZeroPoint = 1
+ShowCadZeroPoint = 0
+ShowGeometryWireframe = 0
+RemoveHiddenLines = 0
+ShowGeometryRendered = 1
+ShowDownwardFaces = 0
+ShowGeometryPoints = 0
+ShowVectors = 1
+ShowVectorsPoints = 0
+ShowBitmap = 1
+ShowBitmapTranslucent = 1
+ShowSegment = 1
+ShowSegmentTranslucent = 0
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowWorkingArea = 0
+RotationX = -75.000000
+RotationY = 30.000000
+RotationZ = 7.600000
+PanningX = 0.000000
+PanningY = 0.000000
+Zooming = 100.000000
+
+[Part0 View3 Operation0]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part0 View3 Operation1]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part1]
+Name = Side #2
+UseRotationAxis = 0
+UseTiltOption = 0
+ScaleX = 1.000000
+ScaleY = 1.000000
+ScaleZ = 1.000000
+MirrorX = 0
+MirrorY = 0
+MirrorZ = 0
+RotationX = -90.000000
+RotationY = 0.000000
+RotationZ = 180.000000
+InverseMilling = 0
+CenteringGeometry = 0
+SegmentMethod = 0
+SegmentMinimumX = -262.656891
+SegmentMinimumY = -24.902283
+SegmentMinimumZ = -43.947327
+SegmentMaximumX = 7.904260
+SegmentMaximumY = 24.902283
+SegmentMaximumZ = 43.947327
+SegmentMinimumAngle = 0.000000
+SegmentMaximumAngle = 360.000000
+AmbientlevelMethod = 0
+AmbientlevelZ = -43.947327
+TranslationMethodX = 1
+TranslationMethodY = 0
+TranslationMethodZ = 0
+TranslationCustomX = 0.000000
+TranslationCustomY = 0.000000
+TranslationCustomZ = 0.000000
+SimulationDetailLevel = 2
+CheckSimulationForRemoved = 0
+UseSimulationDefaultToleranceForRemoved = 1
+SimulationToleranceForRemoved = 0.270561
+CheckSimulationForRest = 0
+UseSimulationDefaultToleranceForRest = 1
+SimulationToleranceForRest = 0.270561
+WindowLayout = 0
+NumberOfOperations = 2
+SupportBlockType = 3
+
+[Part1 Operation0]
+Name = Roughing
+Cutter = Ball nose, radius 5 = diameter 10 mm
+Visible = 1
+OperationType = 1
+Feedrate = 1200.000000
+Spindlespeed = 10000
+PreStep Flags = 8
+PreStep Angle = 90.000000
+ChainPart = Side #3
+ChainOperation = Roughing
+UseRoughingLayers = 1
+RoughingLayerMethod = 1
+RoughingLayer = 10.000000
+UseRoughingRamping = 1
+RoughingRampingAngle = 5.000000
+AlwaysStayLow = 0
+ToolpathDistance = 5.000000
+ToolpathStepsize = 5.000000
+ToolpathSubSamplingFactor = 1
+SegmentMethod = 1
+SegmentMinimumX = -99.035125
+SegmentMinimumY = 24.368126
+SegmentMinimumZ = 43.438834
+SegmentMaximumX = -86.321320
+SegmentMaximumY = 24.902283
+SegmentMaximumZ = 43.947327
+SegmentMinimumAngle = 0.000000
+SegmentMaximumAngle = 360.000000
+BordersizeMethod = 3
+BordersizeStartX = 0.000000
+BordersizeStartY = 5.000000
+BordersizeEndX = 0.000000
+BordersizeEndY = 5.000000
+Strategy = 0
+StrategyParallelAngle = 0.000000
+CrosswiseFirstXthenY = 1
+StrategyCircularSpiral = 0
+StrategyMachineCorners = 0
+StrategyCentreMethod = 1
+StrategyCentreX = -92.678222
+StrategyCentreY = 24.635205
+SmoothToolpathTransitions = 0
+FillGaps = 0
+WaterlineDistance = 1.000000
+FillHorizontalWaterlinePlanes = 0
+IgnoreEnclosedContours = 0
+ContourOffset = 0.000000
+RoughingSkin = 6.000000
+RoughingVerticalPlaneCheck = 0
+Direction = 0
+PlungeRate = 100
+StartRate = 50
+Sorting = 1
+FreeMovementHeight = 30.000000
+SkipAmbient = 0
+SkipAmbientIgnoreEnclosed = 1
+ColletDiameter = 0
+CheckForVerticalPlanes = 0
+VerticalPlaneRatio = 20
+TiltAngle = 0.000000
+
+[Part1 Operation1]
+Name = Finishing
+Cutter = Ball nose, radius 1.5 = diameter 3 mm
+Visible = 1
+OperationType = 1
+Feedrate = 1200.000000
+Spindlespeed = 10000
+PreStep Flags = 8
+PreStep Angle = 90.000000
+ChainPart = Side #3
+ChainOperation = Finishing
+UseRoughingLayers = 0
+RoughingLayerMethod = 0
+RoughingLayer = 10.000000
+UseRoughingRamping = 0
+RoughingRampingAngle = 5.000000
+AlwaysStayLow = 0
+ToolpathDistance = 0.333333
+ToolpathStepsize = 0.333333
+ToolpathSubSamplingFactor = 1
+SegmentMethod = 2
+SegmentMinimumX = -258.103440
+SegmentMinimumY = -24.056149
+SegmentMinimumZ = 0.000000
+SegmentMaximumX = -0.133579
+SegmentMaximumY = 24.902283
+SegmentMaximumZ = 43.947327
+SegmentMinimumAngle = 0.000000
+SegmentMaximumAngle = 360.000000
+SegmentNumPolygons = 1
+SegmentPolygon_1_NumPoints = 104
+SegmentPolygon_1_NumChunks = 1
+SegmentPolygon_1_1 = -254.37;-20.82|-254.25;-21.20|-254.00;-21.57|-253.87;-21.69|-248.65;-21.57|-241.69;-21.45|-241.44;-21.94|-241.19;-22.19|-238.83;-22.32|-235.22;-22.44|-192.30;-18.43|-189.60;-17.77|-188.37;-16.73|-187.52;-13.90|-181.02;-12.21|-174.32;-11.17|-174.32;-11.26|-168.57;-12.68|-164.71;-15.03|-163.04;-17.88|-160.56;-19.81|-141.58;-21.53|-134.03;-24.06|-129.18;-23.93|-123.58;-23.81|-118.11;-23.68|-112.52;-23.56|-106.18;-23.43|-93.00;-23.19|-87.03;-23.06|-81.69;-22.94|-76.09;-22.81|-70.25;-22.69|-64.16;-22.56|-57.69;-22.44|-28.98;-22.44|-22.01;-22.56|-8.34;-22.81|-6.85;-22.81|-6.10;-22.56|-3.99;-21.57|-3.49;-21.32|-2.25;-20.95|-1.87;-20.82|-1.38;-20.58|-1.00;-20.20|-0.63;-19.46|-0.51;-18.83|-0.38;-18.09|-0.13;-12.87|-0.13;5.78|-0.38;14.23|-0.51;15.73|-0.63;16.60|-0.76;16.97|-7.34;17.22|-12.32;17.47|-17.41;17.72|-22.64;17.96|-25.50;18.09|-30.97;18.34|-40.29;18.71|-43.89;18.83|-51.48;19.08|-55.95;19.21|-60.31;19.33|-69.50;19.58|-74.23;19.70|-78.70;19.83|-83.30;19.95|-87.78;20.08|-104.19;20.58|-108.04;20.70|-119.98;21.07|-131.54;21.45|-139.37;21.69|-147.21;21.94|-151.43;22.07|-159.64;22.32|-163.86;22.44|-168.22;22.56|-172.44;22.69|-181.15;22.94|-185.25;23.06|-189.47;23.19|-201.41;23.56|-212.97;23.93|-220.43;24.18|-234.85;24.68|-241.57;24.90|-246.17;24.90|-249.89;24.68|-251.51;24.43|-251.88;24.30|-253.13;23.06|-253.25;22.69|-253.50;21.45|-253.87;19.33|-254.00;18.59|-254.12;17.72|-254.18;16.36|-257.42;16.47|-258.10;-14.32|-254.45;-14.78|
+BordersizeMethod = 3
+BordersizeStartX = 0.000000
+BordersizeStartY = 0.000000
+BordersizeEndX = 0.000000
+BordersizeEndY = 0.000000
+Strategy = 0
+StrategyParallelAngle = 45.000000
+CrosswiseFirstXthenY = 1
+StrategyCircularSpiral = 0
+StrategyMachineCorners = 1
+StrategyCentreMethod = 1
+StrategyCentreX = -129.118509
+StrategyCentreY = 0.423067
+SmoothToolpathTransitions = 0
+FillGaps = 0
+WaterlineDistance = 1.000000
+FillHorizontalWaterlinePlanes = 0
+IgnoreEnclosedContours = 0
+ContourOffset = 0.000000
+RoughingSkin = 0.000000
+RoughingVerticalPlaneCheck = 0
+Direction = 0
+PlungeRate = 100
+StartRate = 50
+Sorting = 1
+FreeMovementHeight = 30.000000
+SkipAmbient = 1
+SkipAmbientIgnoreEnclosed = 1
+ColletDiameter = 0
+CheckForVerticalPlanes = 0
+VerticalPlaneRatio = 20
+TiltAngle = 0.000000
+
+[Part1 View0]
+Name = 
+ShowName = 1
+ShowOrientator = 1
+ShowWorkpieceZeroPoint = 1
+ShowCadZeroPoint = 0
+ShowGeometryWireframe = 0
+RemoveHiddenLines = 0
+ShowGeometryRendered = 1
+ShowDownwardFaces = 0
+ShowGeometryPoints = 0
+ShowVectors = 1
+ShowVectorsPoints = 0
+ShowBitmap = 1
+ShowBitmapTranslucent = 1
+ShowSegment = 1
+ShowSegmentTranslucent = 0
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowWorkingArea = 0
+RotationX = -60.728070
+RotationY = 1.072248
+RotationZ = 11.932085
+PanningX = -183.905738
+PanningY = -38.206540
+Zooming = 259.374246
+
+[Part1 View0 Operation0]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part1 View0 Operation1]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part1 View1]
+Name = 
+ShowName = 1
+ShowOrientator = 1
+ShowWorkpieceZeroPoint = 1
+ShowCadZeroPoint = 0
+ShowGeometryWireframe = 0
+RemoveHiddenLines = 0
+ShowGeometryRendered = 1
+ShowDownwardFaces = 0
+ShowGeometryPoints = 0
+ShowVectors = 1
+ShowVectorsPoints = 0
+ShowBitmap = 1
+ShowBitmapTranslucent = 1
+ShowSegment = 1
+ShowSegmentTranslucent = 0
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowWorkingArea = 0
+RotationX = -75.000000
+RotationY = 30.000000
+RotationZ = 7.600000
+PanningX = 0.000000
+PanningY = 0.000000
+Zooming = 100.000000
+
+[Part1 View1 Operation0]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part1 View1 Operation1]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part1 View2]
+Name = 
+ShowName = 1
+ShowOrientator = 1
+ShowWorkpieceZeroPoint = 1
+ShowCadZeroPoint = 0
+ShowGeometryWireframe = 0
+RemoveHiddenLines = 0
+ShowGeometryRendered = 1
+ShowDownwardFaces = 0
+ShowGeometryPoints = 0
+ShowVectors = 1
+ShowVectorsPoints = 0
+ShowBitmap = 1
+ShowBitmapTranslucent = 1
+ShowSegment = 1
+ShowSegmentTranslucent = 0
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowWorkingArea = 0
+RotationX = -75.000000
+RotationY = 30.000000
+RotationZ = 7.600000
+PanningX = 0.000000
+PanningY = 0.000000
+Zooming = 100.000000
+
+[Part1 View2 Operation0]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part1 View2 Operation1]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part1 View3]
+Name = 
+ShowName = 1
+ShowOrientator = 1
+ShowWorkpieceZeroPoint = 1
+ShowCadZeroPoint = 0
+ShowGeometryWireframe = 0
+RemoveHiddenLines = 0
+ShowGeometryRendered = 1
+ShowDownwardFaces = 0
+ShowGeometryPoints = 0
+ShowVectors = 1
+ShowVectorsPoints = 0
+ShowBitmap = 1
+ShowBitmapTranslucent = 1
+ShowSegment = 1
+ShowSegmentTranslucent = 0
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowWorkingArea = 0
+RotationX = -75.000000
+RotationY = 30.000000
+RotationZ = 7.600000
+PanningX = 0.000000
+PanningY = 0.000000
+Zooming = 100.000000
+
+[Part1 View3 Operation0]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part1 View3 Operation1]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part2]
+Name = Side #3
+UseRotationAxis = 0
+UseTiltOption = 0
+ScaleX = 1.000000
+ScaleY = 1.000000
+ScaleZ = 1.000000
+MirrorX = 0
+MirrorY = 0
+MirrorZ = 0
+RotationX = 180.000000
+RotationY = 0.000000
+RotationZ = 180.000000
+InverseMilling = 0
+CenteringGeometry = 0
+SegmentMethod = 0
+SegmentMinimumX = -262.656891
+SegmentMinimumY = -43.947327
+SegmentMinimumZ = -24.902283
+SegmentMaximumX = 7.904260
+SegmentMaximumY = 43.947327
+SegmentMaximumZ = 24.902283
+SegmentMinimumAngle = 0.000000
+SegmentMaximumAngle = 360.000000
+AmbientlevelMethod = 0
+AmbientlevelZ = -24.902283
+TranslationMethodX = 1
+TranslationMethodY = 0
+TranslationMethodZ = 0
+TranslationCustomX = 0.000000
+TranslationCustomY = 0.000000
+TranslationCustomZ = 0.000000
+SimulationDetailLevel = 2
+CheckSimulationForRemoved = 0
+UseSimulationDefaultToleranceForRemoved = 1
+SimulationToleranceForRemoved = 0.270561
+CheckSimulationForRest = 0
+UseSimulationDefaultToleranceForRest = 1
+SimulationToleranceForRest = 0.270561
+WindowLayout = 0
+NumberOfOperations = 2
+SupportBlockType = 3
+
+[Part2 Operation0]
+Name = Roughing
+Cutter = Ball nose, radius 5 = diameter 10 mm
+Visible = 1
+OperationType = 1
+Feedrate = 1200.000000
+Spindlespeed = 10000
+PreStep Flags = 8
+PreStep Angle = 180.000000
+ChainPart = Side #4
+ChainOperation = Roughing
+UseRoughingLayers = 1
+RoughingLayerMethod = 1
+RoughingLayer = 10.000000
+UseRoughingRamping = 1
+RoughingRampingAngle = 5.000000
+AlwaysStayLow = 0
+ToolpathDistance = 5.000000
+ToolpathStepsize = 5.000000
+ToolpathSubSamplingFactor = 1
+SegmentMethod = 1
+SegmentMinimumX = -255.235375
+SegmentMinimumY = -43.947327
+SegmentMinimumZ = 0.000000
+SegmentMaximumX = 0.482744
+SegmentMaximumY = 43.947327
+SegmentMaximumZ = 24.902283
+SegmentMinimumAngle = 0.000000
+SegmentMaximumAngle = 360.000000
+BordersizeMethod = 3
+BordersizeStartX = 0.000000
+BordersizeStartY = 5.000000
+BordersizeEndX = 0.000000
+BordersizeEndY = 5.000000
+Strategy = 0
+StrategyParallelAngle = 0.000000
+CrosswiseFirstXthenY = 1
+StrategyCircularSpiral = 0
+StrategyMachineCorners = 0
+StrategyCentreMethod = 1
+StrategyCentreX = -127.376315
+StrategyCentreY = 0.000000
+SmoothToolpathTransitions = 0
+FillGaps = 0
+WaterlineDistance = 1.000000
+FillHorizontalWaterlinePlanes = 0
+IgnoreEnclosedContours = 0
+ContourOffset = 0.000000
+RoughingSkin = 6.000000
+RoughingVerticalPlaneCheck = 0
+Direction = 0
+PlungeRate = 100
+StartRate = 50
+Sorting = 1
+FreeMovementHeight = 30.000000
+SkipAmbient = 0
+SkipAmbientIgnoreEnclosed = 1
+ColletDiameter = 0
+CheckForVerticalPlanes = 0
+VerticalPlaneRatio = 20
+TiltAngle = 0.000000
+
+[Part2 Operation1]
+Name = Finishing
+Cutter = Flat tip, radius 5 = diameter 10 mm
+Visible = 1
+OperationType = 1
+Feedrate = 1200.000000
+Spindlespeed = 10000
+PreStep Flags = 8
+PreStep Angle = 180.000000
+ChainPart = Side #4
+ChainOperation = Finishing
+UseRoughingLayers = 0
+RoughingLayerMethod = 0
+RoughingLayer = 30.000000
+UseRoughingRamping = 0
+RoughingRampingAngle = 5.000000
+AlwaysStayLow = 0
+ToolpathDistance = 2.000000
+ToolpathStepsize = 2.000000
+ToolpathSubSamplingFactor = 1
+SegmentMethod = 2
+SegmentMinimumX = -254.619045
+SegmentMinimumY = -43.947327
+SegmentMinimumZ = 0.000000
+SegmentMaximumX = -0.133579
+SegmentMaximumY = 43.947327
+SegmentMaximumZ = 24.902283
+SegmentMinimumAngle = 0.000000
+SegmentMaximumAngle = 360.000000
+SegmentNumPolygons = 1
+SegmentPolygon_1_NumPoints = 172
+SegmentPolygon_1_NumChunks = 1
+SegmentPolygon_1_1 = -254.62;-39.97|-254.37;-39.97|-254.37;-39.84|-254.25;-40.09|-254.00;-40.84|-253.25;-40.84|-251.76;-40.47|-250.52;-40.09|-249.15;-39.84|-248.53;-39.72|-245.29;-39.47|-237.59;-39.60|-234.48;-39.84|-228.76;-40.34|-222.79;-40.96|-216.20;-41.71|-214.09;-41.96|-212.97;-42.08|-204.02;-43.20|-200.91;-43.57|-197.56;-43.95|-194.82;-43.95|-194.45;-43.57|-193.95;-42.58|-193.70;-42.33|-192.83;-42.33|-190.59;-42.58|-189.60;-42.58|-188.11;-42.33|-187.73;-42.21|-181.77;-39.84|-174.93;-37.11|-171.57;-35.74|-169.46;-34.87|-163.49;-32.39|-162.00;-31.76|-158.77;-30.40|-156.16;-29.28|-155.66;-29.03|-153.67;-28.53|-152.80;-28.28|-151.56;-27.91|-149.32;-27.16|-147.58;-26.54|-146.96;-26.29|-144.84;-25.42|-143.97;-25.05|-142.85;-24.55|-136.14;-21.20|-135.77;-21.07|-128.93;-18.21|-122.09;-15.48|-120.10;-14.73|-118.49;-14.11|-115.88;-13.12|-114.26;-12.49|-111.65;-11.50|-111.40;-11.38|-103.94;-8.89|-103.44;-8.76|-97.73;-7.02|-91.01;-5.41|-88.40;-4.79|-87.28;-4.54|-83.43;-4.16|-78.33;-3.67|-77.09;-3.54|-69.88;-3.79|-65.90;-4.04|-65.28;-4.16|-63.91;-4.41|-57.69;-5.53|-56.45;-5.78|-56.08;-5.91|-49.24;-8.02|-42.15;-10.75|-40.41;-11.50|-38.92;-12.12|-38.30;-12.37|-37.93;-12.49|-28.73;-17.09|-28.60;-17.22|-24.75;-19.33|-22.26;-20.70|-16.92;-23.68|-14.68;-24.93|-13.06;-25.80|-9.83;-27.41|-9.71;-27.41|-8.46;-19.83|-7.34;-13.49|-6.23;-7.15|-5.11;-0.81|-3.99;5.53|-2.87;11.87|-1.75;18.21|-0.51;25.30|-0.13;27.04|-0.26;27.16|-5.11;27.66|-10.20;28.41|-16.17;29.28|-21.39;30.02|-28.85;31.02|-30.84;31.27|-35.19;31.76|-39.67;32.26|-40.91;32.39|-43.89;32.63|-49.99;33.13|-52.60;33.26|-56.20;33.38|-61.80;33.63|-64.66;33.50|-70.13;33.38|-74.23;33.26|-77.34;33.01|-81.94;32.63|-86.54;32.26|-87.66;32.14|-94.99;31.14|-99.59;30.52|-103.07;30.02|-109.29;29.03|-115.50;28.03|-119.36;27.41|-126.20;26.29|-133.03;25.18|-137.26;24.55|-143.23;23.68|-150.19;22.81|-155.41;22.32|-161.25;21.94|-170.45;21.94|-177.91;22.56|-184.00;23.56|-186.86;24.06|-194.20;25.67|-198.43;26.67|-200.54;27.16|-201.29;27.41|-208.37;29.53|-210.86;30.27|-213.22;31.02|-213.47;31.14|-215.08;31.76|-220.68;33.88|-223.66;35.00|-224.04;35.12|-231.00;38.60|-231.37;38.73|-234.35;40.22|-234.48;40.34|-236.10;41.46|-237.34;42.33|-238.58;43.20|-239.33;43.70|-239.82;43.95|-239.82;43.70|-240.94;37.36|-242.06;31.02|-243.18;24.68|-244.30;18.34|-245.42;12.00|-246.54;5.66|-247.66;-0.68|-248.40;-4.91|-249.65;-12.00|-250.77;-18.34|-251.88;-24.68|-253.00;-31.02|-254.12;-37.36|
+BordersizeMethod = 3
+BordersizeStartX = 0.000000
+BordersizeStartY = 0.000000
+BordersizeEndX = 0.000000
+BordersizeEndY = 0.000000
+Strategy = 0
+StrategyParallelAngle = 0.000000
+CrosswiseFirstXthenY = 1
+StrategyCircularSpiral = 0
+StrategyMachineCorners = 1
+StrategyCentreMethod = 1
+StrategyCentreX = -127.376312
+StrategyCentreY = 0.000000
+SmoothToolpathTransitions = 0
+FillGaps = 0
+WaterlineDistance = 1.000000
+FillHorizontalWaterlinePlanes = 0
+IgnoreEnclosedContours = 0
+ContourOffset = 0.000000
+RoughingSkin = 0.000000
+RoughingVerticalPlaneCheck = 0
+Direction = 0
+PlungeRate = 100
+StartRate = 50
+Sorting = 1
+FreeMovementHeight = 30.000000
+SkipAmbient = 1
+SkipAmbientIgnoreEnclosed = 1
+ColletDiameter = 0
+CheckForVerticalPlanes = 0
+VerticalPlaneRatio = 20
+TiltAngle = 0.000000
+
+[Part2 View0]
+Name = 
+ShowName = 1
+ShowOrientator = 1
+ShowWorkpieceZeroPoint = 1
+ShowCadZeroPoint = 0
+ShowGeometryWireframe = 0
+RemoveHiddenLines = 0
+ShowGeometryRendered = 1
+ShowDownwardFaces = 0
+ShowGeometryPoints = 0
+ShowVectors = 1
+ShowVectorsPoints = 0
+ShowBitmap = 1
+ShowBitmapTranslucent = 1
+ShowSegment = 1
+ShowSegmentTranslucent = 0
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowWorkingArea = 0
+RotationX = 5.700971
+RotationY = 1.911191
+RotationZ = -13.136760
+PanningX = 0.000000
+PanningY = 0.000000
+Zooming = 100.000000
+
+[Part2 View0 Operation0]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part2 View0 Operation1]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part2 View1]
+Name = 
+ShowName = 1
+ShowOrientator = 1
+ShowWorkpieceZeroPoint = 1
+ShowCadZeroPoint = 0
+ShowGeometryWireframe = 0
+RemoveHiddenLines = 0
+ShowGeometryRendered = 1
+ShowDownwardFaces = 0
+ShowGeometryPoints = 0
+ShowVectors = 1
+ShowVectorsPoints = 0
+ShowBitmap = 1
+ShowBitmapTranslucent = 1
+ShowSegment = 1
+ShowSegmentTranslucent = 0
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowWorkingArea = 0
+RotationX = -75.000000
+RotationY = 30.000000
+RotationZ = 7.600000
+PanningX = 0.000000
+PanningY = 0.000000
+Zooming = 100.000000
+
+[Part2 View1 Operation0]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part2 View1 Operation1]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part2 View2]
+Name = 
+ShowName = 1
+ShowOrientator = 1
+ShowWorkpieceZeroPoint = 1
+ShowCadZeroPoint = 0
+ShowGeometryWireframe = 0
+RemoveHiddenLines = 0
+ShowGeometryRendered = 1
+ShowDownwardFaces = 0
+ShowGeometryPoints = 0
+ShowVectors = 1
+ShowVectorsPoints = 0
+ShowBitmap = 1
+ShowBitmapTranslucent = 1
+ShowSegment = 1
+ShowSegmentTranslucent = 0
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowWorkingArea = 0
+RotationX = -75.000000
+RotationY = 30.000000
+RotationZ = 7.600000
+PanningX = 0.000000
+PanningY = 0.000000
+Zooming = 100.000000
+
+[Part2 View2 Operation0]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part2 View2 Operation1]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part2 View3]
+Name = 
+ShowName = 1
+ShowOrientator = 1
+ShowWorkpieceZeroPoint = 1
+ShowCadZeroPoint = 0
+ShowGeometryWireframe = 0
+RemoveHiddenLines = 0
+ShowGeometryRendered = 1
+ShowDownwardFaces = 0
+ShowGeometryPoints = 0
+ShowVectors = 1
+ShowVectorsPoints = 0
+ShowBitmap = 1
+ShowBitmapTranslucent = 1
+ShowSegment = 1
+ShowSegmentTranslucent = 0
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowWorkingArea = 0
+RotationX = -75.000000
+RotationY = 30.000000
+RotationZ = 7.600000
+PanningX = 0.000000
+PanningY = 0.000000
+Zooming = 100.000000
+
+[Part2 View3 Operation0]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part2 View3 Operation1]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part3]
+Name = Side #4
+UseRotationAxis = 0
+UseTiltOption = 0
+ScaleX = 1.000000
+ScaleY = 1.000000
+ScaleZ = 1.000000
+MirrorX = 0
+MirrorY = 0
+MirrorZ = 0
+RotationX = 90.000000
+RotationY = 0.000000
+RotationZ = 180.000000
+InverseMilling = 0
+CenteringGeometry = 0
+SegmentMethod = 0
+SegmentMinimumX = -262.656891
+SegmentMinimumY = -24.902283
+SegmentMinimumZ = -43.947327
+SegmentMaximumX = 7.904260
+SegmentMaximumY = 24.902283
+SegmentMaximumZ = 43.947327
+SegmentMinimumAngle = 0.000000
+SegmentMaximumAngle = 360.000000
+AmbientlevelMethod = 0
+AmbientlevelZ = -43.947327
+TranslationMethodX = 1
+TranslationMethodY = 0
+TranslationMethodZ = 0
+TranslationCustomX = 0.000000
+TranslationCustomY = 0.000000
+TranslationCustomZ = 0.000000
+SimulationDetailLevel = 2
+CheckSimulationForRemoved = 0
+UseSimulationDefaultToleranceForRemoved = 1
+SimulationToleranceForRemoved = 0.270561
+CheckSimulationForRest = 0
+UseSimulationDefaultToleranceForRest = 1
+SimulationToleranceForRest = 0.270561
+WindowLayout = 0
+NumberOfOperations = 2
+SupportBlockType = 3
+
+[Part3 Operation0]
+Name = Roughing
+Cutter = Ball nose, radius 5 = diameter 10 mm
+Visible = 1
+OperationType = 1
+Feedrate = 1200.000000
+Spindlespeed = 10000
+PreStep Flags = 8
+PreStep Angle = 270.000000
+ChainPart = Side #1
+ChainOperation = Finishing
+UseRoughingLayers = 1
+RoughingLayerMethod = 1
+RoughingLayer = 10.000000
+UseRoughingRamping = 1
+RoughingRampingAngle = 5.000000
+AlwaysStayLow = 0
+ToolpathDistance = 5.000000
+ToolpathStepsize = 5.000000
+ToolpathSubSamplingFactor = 1
+SegmentMethod = 1
+SegmentMinimumX = -145.122668
+SegmentMinimumY = -24.902283
+SegmentMinimumZ = 43.438834
+SegmentMaximumX = -138.765766
+SegmentMaximumY = -24.368126
+SegmentMaximumZ = 43.947327
+SegmentMinimumAngle = 0.000000
+SegmentMaximumAngle = 360.000000
+BordersizeMethod = 3
+BordersizeStartX = 0.000000
+BordersizeStartY = 5.000000
+BordersizeEndX = 0.000000
+BordersizeEndY = 5.000000
+Strategy = 0
+StrategyParallelAngle = 0.000000
+CrosswiseFirstXthenY = 1
+StrategyCircularSpiral = 0
+StrategyMachineCorners = 0
+StrategyCentreMethod = 1
+StrategyCentreX = -141.944217
+StrategyCentreY = -24.635205
+SmoothToolpathTransitions = 0
+FillGaps = 0
+WaterlineDistance = 1.000000
+FillHorizontalWaterlinePlanes = 0
+IgnoreEnclosedContours = 0
+ContourOffset = 0.000000
+RoughingSkin = 6.000000
+RoughingVerticalPlaneCheck = 0
+Direction = 0
+PlungeRate = 100
+StartRate = 50
+Sorting = 1
+FreeMovementHeight = 30.000000
+SkipAmbient = 0
+SkipAmbientIgnoreEnclosed = 1
+ColletDiameter = 0
+CheckForVerticalPlanes = 0
+VerticalPlaneRatio = 20
+TiltAngle = 0.000000
+
+[Part3 Operation1]
+Name = Finishing
+Cutter = Flat tip, radius 5 = diameter 10 mm
+Visible = 1
+OperationType = 1
+Feedrate = 1200.000000
+Spindlespeed = 10000
+PreStep Flags = 8
+PreStep Angle = 270.000000
+PostStep Flags = 8
+PostStep Angle = 0.000000
+UseRoughingLayers = 0
+RoughingLayerMethod = 0
+RoughingLayer = 30.000000
+UseRoughingRamping = 0
+RoughingRampingAngle = 5.000000
+AlwaysStayLow = 0
+ToolpathDistance = 2.000000
+ToolpathStepsize = 2.000000
+ToolpathSubSamplingFactor = 1
+SegmentMethod = 2
+SegmentMinimumX = -254.619045
+SegmentMinimumY = -24.902283
+SegmentMinimumZ = 0.000000
+SegmentMaximumX = -0.133579
+SegmentMaximumY = 24.902283
+SegmentMaximumZ = 43.947327
+SegmentMinimumAngle = 0.000000
+SegmentMaximumAngle = 360.000000
+SegmentNumPolygons = 1
+SegmentPolygon_1_NumPoints = 105
+SegmentPolygon_1_NumChunks = 1
+SegmentPolygon_1_1 = -254.49;13.24|-254.37;-12.12|-254.25;-14.98|-254.12;-17.72|-254.00;-18.59|-253.87;-19.33|-253.50;-21.45|-253.25;-22.69|-253.13;-23.06|-251.88;-24.30|-251.51;-24.43|-249.89;-24.68|-246.17;-24.90|-241.57;-24.90|-234.85;-24.68|-220.43;-24.18|-212.97;-23.93|-201.41;-23.56|-189.47;-23.19|-185.25;-23.06|-181.15;-22.94|-172.44;-22.69|-168.22;-22.56|-163.86;-22.44|-159.64;-22.32|-151.43;-22.07|-147.21;-21.94|-139.37;-21.69|-131.54;-21.45|-119.98;-21.07|-108.04;-20.70|-104.19;-20.58|-87.78;-20.08|-83.30;-19.95|-78.70;-19.83|-74.23;-19.70|-69.50;-19.58|-60.31;-19.33|-55.95;-19.21|-51.48;-19.08|-43.89;-18.83|-40.29;-18.71|-30.97;-18.34|-25.50;-18.09|-22.64;-17.96|-17.41;-17.72|-12.32;-17.47|-7.34;-17.22|-0.76;-16.97|-0.63;-16.60|-0.51;-15.73|-0.38;-14.23|-0.13;-5.78|-0.13;12.87|-0.38;18.09|-0.51;18.83|-0.63;19.46|-1.00;20.20|-1.38;20.58|-1.87;20.82|-2.25;20.95|-3.49;21.32|-3.99;21.57|-6.10;22.56|-6.85;22.81|-8.34;22.81|-22.01;22.56|-28.98;22.44|-57.69;22.44|-64.16;22.56|-70.25;22.69|-76.09;22.81|-81.69;22.94|-87.03;23.06|-93.00;23.19|-106.18;23.43|-112.52;23.56|-118.11;23.68|-123.58;23.81|-129.18;23.93|-134.03;24.06|-138.63;24.18|-143.10;24.30|-147.83;24.43|-157.52;24.68|-170.45;24.90|-178.66;24.90|-189.35;24.68|-192.58;24.55|-198.30;24.30|-201.29;24.18|-206.13;23.93|-220.31;23.19|-227.39;22.81|-235.22;22.44|-238.83;22.32|-241.19;22.19|-241.44;21.94|-241.69;21.45|-248.65;21.57|-253.87;21.69|-254.00;21.57|-254.25;21.20|-254.37;20.82|-254.62;19.83|
+BordersizeMethod = 3
+BordersizeStartX = 0.000000
+BordersizeStartY = 0.000000
+BordersizeEndX = 0.000000
+BordersizeEndY = 0.000000
+Strategy = 0
+StrategyParallelAngle = 0.000000
+CrosswiseFirstXthenY = 1
+StrategyCircularSpiral = 0
+StrategyMachineCorners = 1
+StrategyCentreMethod = 1
+StrategyCentreX = -127.376312
+StrategyCentreY = 0.000000
+SmoothToolpathTransitions = 0
+FillGaps = 0
+WaterlineDistance = 1.000000
+FillHorizontalWaterlinePlanes = 0
+IgnoreEnclosedContours = 0
+ContourOffset = 0.000000
+RoughingSkin = 0.000000
+RoughingVerticalPlaneCheck = 0
+Direction = 0
+PlungeRate = 100
+StartRate = 50
+Sorting = 1
+FreeMovementHeight = 30.000000
+SkipAmbient = 1
+SkipAmbientIgnoreEnclosed = 1
+ColletDiameter = 0
+CheckForVerticalPlanes = 0
+VerticalPlaneRatio = 20
+TiltAngle = 0.000000
+
+[Part3 View0]
+Name = 
+ShowName = 1
+ShowOrientator = 1
+ShowWorkpieceZeroPoint = 1
+ShowCadZeroPoint = 0
+ShowGeometryWireframe = 0
+RemoveHiddenLines = 0
+ShowGeometryRendered = 1
+ShowDownwardFaces = 0
+ShowGeometryPoints = 0
+ShowVectors = 1
+ShowVectorsPoints = 0
+ShowBitmap = 1
+ShowBitmapTranslucent = 1
+ShowSegment = 1
+ShowSegmentTranslucent = 0
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowWorkingArea = 0
+RotationX = -4.992857
+RotationY = -0.063426
+RotationZ = 2.039803
+PanningX = 0.000000
+PanningY = -0.000000
+Zooming = 100.000000
+
+[Part3 View0 Operation0]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part3 View0 Operation1]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part3 View1]
+Name = 
+ShowName = 1
+ShowOrientator = 1
+ShowWorkpieceZeroPoint = 1
+ShowCadZeroPoint = 0
+ShowGeometryWireframe = 0
+RemoveHiddenLines = 0
+ShowGeometryRendered = 1
+ShowDownwardFaces = 0
+ShowGeometryPoints = 0
+ShowVectors = 1
+ShowVectorsPoints = 0
+ShowBitmap = 1
+ShowBitmapTranslucent = 1
+ShowSegment = 1
+ShowSegmentTranslucent = 0
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowWorkingArea = 0
+RotationX = -75.000000
+RotationY = 30.000000
+RotationZ = 7.600000
+PanningX = 0.000000
+PanningY = 0.000000
+Zooming = 100.000000
+
+[Part3 View1 Operation0]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part3 View1 Operation1]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part3 View2]
+Name = 
+ShowName = 1
+ShowOrientator = 1
+ShowWorkpieceZeroPoint = 1
+ShowCadZeroPoint = 0
+ShowGeometryWireframe = 0
+RemoveHiddenLines = 0
+ShowGeometryRendered = 1
+ShowDownwardFaces = 0
+ShowGeometryPoints = 0
+ShowVectors = 1
+ShowVectorsPoints = 0
+ShowBitmap = 1
+ShowBitmapTranslucent = 1
+ShowSegment = 1
+ShowSegmentTranslucent = 0
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowWorkingArea = 0
+RotationX = -75.000000
+RotationY = 30.000000
+RotationZ = 7.600000
+PanningX = 0.000000
+PanningY = 0.000000
+Zooming = 100.000000
+
+[Part3 View2 Operation0]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part3 View2 Operation1]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part3 View3]
+Name = 
+ShowName = 1
+ShowOrientator = 1
+ShowWorkpieceZeroPoint = 1
+ShowCadZeroPoint = 0
+ShowGeometryWireframe = 0
+RemoveHiddenLines = 0
+ShowGeometryRendered = 1
+ShowDownwardFaces = 0
+ShowGeometryPoints = 0
+ShowVectors = 1
+ShowVectorsPoints = 0
+ShowBitmap = 1
+ShowBitmapTranslucent = 1
+ShowSegment = 1
+ShowSegmentTranslucent = 0
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowWorkingArea = 0
+RotationX = -75.000000
+RotationY = 30.000000
+RotationZ = 7.600000
+PanningX = 0.000000
+PanningY = 0.000000
+Zooming = 100.000000
+
+[Part3 View3 Operation0]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[Part3 View3 Operation1]
+ShowSubsegments = 1
+ShowSubsegmentTranslucent = 0
+ShowPoints = 0
+
+[NCFiles]
+NCFileCount = 3
+NCFile0 = F:/Podlokotnik/Niz_Levo\1#1_Roughing_to_Roughing.iso
+NCFile0Properties = Part0,Operation1,#1,0,1597914512
+NCFile1 = F:/Podlokotnik/Niz_Levo\1#2_Finishing_to_Finishing.iso
+NCFile1Properties = Part2,Operation1,#2,0,1597914512
+NCFile2 = F:/Podlokotnik/Niz_Levo\1#3_Finishing_to_Finishing.iso
+NCFile2Properties = Part3,Operation1,#3,0,1597914524
