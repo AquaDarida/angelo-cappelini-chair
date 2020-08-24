@@ -12,7 +12,7 @@ PreserveCurveDirection = 0
 NumberOfBitmapFiles = 0
 CADFileUnit = 0
 NumberOfParts = 4
-ActivePartIndex = 3
+ActivePartIndex = 0
 SavedToolpaths = 0
 UseTranslationForOperationSegment = 1
 UseTranslationForPartSegment = 1
@@ -117,7 +117,7 @@ BordersizeMethod = 3
 BordersizeStartX = 0.000000
 BordersizeStartY = 9.000000
 BordersizeEndX = 0.000000
-BordersizeEndY = 9.000000
+BordersizeEndY = 15.000000
 Strategy = 0
 StrategyParallelAngle = 0.000000
 CrosswiseFirstXthenY = 1
@@ -166,11 +166,11 @@ ShowSegmentTranslucent = 0
 ShowSubsegments = 1
 ShowSubsegmentTranslucent = 0
 ShowWorkingArea = 0
-RotationX = 82.405552
-RotationY = 0.345153
-RotationZ = 1.475789
+RotationX = -45.441597
+RotationY = 1.479431
+RotationZ = -5.933766
 PanningX = 0.000000
-PanningY = 0.000000
+PanningY = -0.000000
 Zooming = 100.000000
 
 [Part0 View0 Operation0]
@@ -399,11 +399,11 @@ ShowSegmentTranslucent = 0
 ShowSubsegments = 1
 ShowSubsegmentTranslucent = 0
 ShowWorkingArea = 0
-RotationX = 86.522495
-RotationY = -1.510884
-RotationZ = -0.450790
+RotationX = -93.181210
+RotationY = -53.232047
+RotationZ = 20.492277
 PanningX = 0.000000
-PanningY = 0.000000
+PanningY = -0.000000
 Zooming = 100.000000
 
 [Part1 View0 Operation0]
@@ -863,12 +863,12 @@ ShowSegmentTranslucent = 0
 ShowSubsegments = 1
 ShowSubsegmentTranslucent = 0
 ShowWorkingArea = 0
-RotationX = 28.263569
-RotationY = -7.196344
-RotationZ = 34.345712
-PanningX = 0.000000
-PanningY = -0.000000
-Zooming = 100.000000
+RotationX = 152.331778
+RotationY = 68.066870
+RotationZ = 154.996460
+PanningX = 8.971747
+PanningY = -21.174328
+Zooming = 177.156100
 
 [Part3 View0 Operation0]
 ShowSubsegments = 1
@@ -970,3 +970,8 @@ Zooming = 100.000000
 ShowSubsegments = 1
 ShowSubsegmentTranslucent = 0
 ShowPoints = 0
+
+[NCFiles]
+NCFileCount = 1
+NCFile0 = F:/Noga/Zad/Pravo/roughning.iso
+NCFile0Properties = Part3,Operation0,#1,0,1598250742
